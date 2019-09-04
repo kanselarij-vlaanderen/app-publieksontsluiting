@@ -14,11 +14,17 @@ services:
     restart: "no"
   dispatcher:
     restart: "no"
-  database:
+  virtuoso:
     ports:
       - "8890:8890"
+    restart: "no"
+  database:
     restart: "no"
   migrations:
     restart: "no"
   resource:
+    restart: "no"
+  mu-search:
+    restart: "no"
+  elasticsearch:
     restart: "no"
