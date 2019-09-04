@@ -64,7 +64,7 @@ services:
   resource:
     image: semtech/mu-cl-resources:1.18.0
     links:
-      - virtuoso:database
+      - database:database
     volumes:
       - ./config/resources:/config
     labels:
@@ -74,7 +74,6 @@ services:
   mu-search:
     image: semtech/mu-search:latest
     links:
-      - virtuoso:database
     volumes:
       - ./config/mu-elastic-search:/config
     labels:
