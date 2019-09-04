@@ -16,6 +16,8 @@ services:
       - "80:80"
     labels:
       - "logging=true"
+    environment:
+      DEFAULT_MU_AUTH_ALLOWED_GROUPS_HEADER: "[{\"variables\":[],\"name\":\"public\"}]"
     restart: always
     logging: *default-logging
   dispatcher:
