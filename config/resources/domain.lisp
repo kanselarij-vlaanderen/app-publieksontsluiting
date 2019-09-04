@@ -10,3 +10,4 @@
 
 (read-domain-file "mandaat-domain.lisp")
 (read-domain-file "publicatie-domain.lisp")
+(read-domain-file "besluit-domain.lisp")

@@ -5,3 +5,6 @@
 (add-prefix "mandaat" "http://data.vlaanderen.be/ns/mandaat#")
 (add-prefix "person" "http://www.w3.org/ns/person#")
 (add-prefix "dct" "http://purl.org/dc/terms/")
+(add-prefix "besluit" "http://data.vlaanderen.be/ns/besluit#")
+(add-prefix "prov" "http://www.w3.org/ns/prov#")
+(add-prefix "adms" "http://www.w3.org/ns/adms#")
