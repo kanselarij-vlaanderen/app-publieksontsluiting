@@ -21,7 +21,15 @@ defmodule Dispatcher do
   # match "/themes/*path" do
   #   Proxy.forward conn, path, "http://resource/themes/"
   # end
-
+  match "/mandatees/*path" do
+    Proxy.forward conn, path, "http://resource/mandatees/"
+  end
+  match "/people/*path" do
+    Proxy.forward conn, path, "http://resource/people/"
+  end
+  match "/themes/*path" do
+    Proxy.forward conn, path, "http://resource/themes/"
+  end
   match _ do
     send_resp( conn, 404, "Route not found.  See config/dispatcher.ex" )
   end
