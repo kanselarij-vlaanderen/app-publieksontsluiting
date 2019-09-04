@@ -74,6 +74,8 @@ services:
   mu-search:
     image: semtech/mu-search:latest
     links:
+      - database:db
+      - database:database
     volumes:
       - ./config/mu-elastic-search:/config
     labels:
