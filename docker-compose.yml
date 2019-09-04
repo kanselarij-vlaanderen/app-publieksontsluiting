@@ -12,12 +12,10 @@ services:
     image: semtech/mu-identifier:1.7.0
     links:
       - dispatcher:dispatcher
-    ports:
-      - "80:80"
-    labels:
-      - "logging=true"
     environment:
       DEFAULT_MU_AUTH_ALLOWED_GROUPS_HEADER: "[{\"variables\":[],\"name\":\"public\"}]"
+    labels:
+      - "logging=true"
     restart: always
     logging: *default-logging
   dispatcher:
@@ -74,7 +72,7 @@ services:
     restart: always
     logging: *default-logging
   mu-search:
-    image: semtech/mu-search:latest
+    image: semtech/mu-search:0.6.0-beta.1
     links:
       - database:db
       - database:database
@@ -86,7 +84,6 @@ services:
     logging: *default-logging
   elasticsearch:
     image: semtech/mu-search-elastic-backend
-    container_name: elasticsearch
     environment:
       - cluster.initial_master_nodes=elasticsearch
       - node.name=elasticsearch

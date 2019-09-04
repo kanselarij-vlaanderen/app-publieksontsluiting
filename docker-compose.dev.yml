@@ -10,6 +10,8 @@ x-logging:
 services:
   identifier:
     restart: "no"
+    ports:
+      - "80:80"
   dispatcher:
     restart: "no"
   virtuoso:
