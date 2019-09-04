@@ -30,6 +30,9 @@ defmodule Dispatcher do
   match "/themes/*path" do
     Proxy.forward conn, path, "http://resource/themes/"
   end
+  match "/news-items/search/*path" do
+    Proxy.forward conn, path, "http://mu-search/news-items/search/"
+  end
   match _ do
     send_resp( conn, 404, "Route not found.  See config/dispatcher.ex" )
   end
