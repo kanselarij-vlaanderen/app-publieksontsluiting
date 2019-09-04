@@ -18,5 +18,7 @@ services:
     ports:
       - "8890:8890"
     restart: "no"
+  migrations:
+    restart: "no"
   resource:
     restart: "no"
