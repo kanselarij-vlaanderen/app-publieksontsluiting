@@ -9,8 +9,6 @@ x-logging:
 
 services:
   identifier:
-    ports:
-      - "80:80"
     restart: "no"
   dispatcher:
     restart: "no"
@@ -26,5 +24,7 @@ services:
     restart: "no"
   mu-search:
     restart: "no"
+    ports:
+      - 8888:80
   elasticsearch:
     restart: "no"
