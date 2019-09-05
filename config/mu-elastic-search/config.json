@@ -49,6 +49,11 @@
           "http://data.vlaanderen.be/ns/besluitvorming#heeftBevoegde",
           "http://mu.semte.ch/vocabularies/core/uuid"
         ],
+        "mandateeTitles": [
+          "^http://www.w3.org/ns/prov#generated",
+          "http://data.vlaanderen.be/ns/besluitvorming#heeftBevoegde",
+          "http://purl.org/dc/terms/title"
+        ],
         "sessionDate": [
           "^http://www.w3.org/ns/prov#generated",
           "http://data.vlaanderen.be/ns/besluitvorming#isGeagendeerdVia",
