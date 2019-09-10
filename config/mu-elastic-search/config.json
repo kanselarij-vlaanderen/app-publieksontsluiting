@@ -72,6 +72,10 @@
           "^http://www.w3.org/ns/prov#generated",
           "http://data.vlaanderen.be/ns/besluitvorming#isGeagendeerdVia",
           "http://mu.semte.ch/vocabularies/ext/prioriteit"
+        ],
+        "themeId": [
+          "http://mu.semte.ch/vocabularies/ext/themesOfSubcase",
+          "http://mu.semte.ch/vocabularies/core/uuid"
         ]
       },
       "mappings": {
@@ -94,11 +98,19 @@
           "mandateeIds": {
             "type": "keyword"
           },
+          "mandateeTitles": {
+            "type": "text",
+            "analyzer": "dutchanalyzer",
+            "search_analyzer": "dutchanalyzer"
+          },
           "sessionDate": {
             "type": "date"
           },
           "priority": {
             "type": "integer"
+          },
+          "themeId": {
+            "type": "keyword"
           }
         }
       }

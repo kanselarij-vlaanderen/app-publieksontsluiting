@@ -76,10 +76,11 @@ services:
     restart: always
     logging: *default-logging
   mu-search:
-    image: semtech/mu-search:0.6.0-beta.1
+    image: semtech/mu-search:latest
+    environment:
+      MU_SPARQL_ENDPOINT: "http://virtuoso:8890/sparql"
     links:
       - database:db
-      - database:database
     volumes:
       - ./config/mu-elastic-search:/config
     labels:
