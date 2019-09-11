@@ -12,6 +12,8 @@ services:
     image: kanselarij/frontend-publieksontsluiting:latest
     links:
       - identifier:backend
+    volumes:
+      - ./config/proxy:/etc/nginx/conf.d/
   identifier:
     image: semtech/mu-identifier:1.7.0
     links:

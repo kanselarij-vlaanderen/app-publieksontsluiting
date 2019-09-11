@@ -21,19 +21,19 @@ defmodule Dispatcher do
   # match "/themes/*path" do
   #   Proxy.forward conn, path, "http://resource/themes/"
   # end
-  match "/mandatees/*path" do
+  match "/beslissingenvlaamseregering/mandatees/*path" do
     Proxy.forward conn, path, "http://resource/mandatees/"
   end
-  match "/people/*path" do
+  match "/beslissingenvlaamseregering/people/*path" do
     Proxy.forward conn, path, "http://resource/people/"
   end
-  match "/themes/*path" do
+  match "/beslissingenvlaamseregering/themes/*path" do
     Proxy.forward conn, path, "http://resource/themes/"
   end
-  match "/meetings/*path" do
+  match "/beslissingenvlaamseregering/meetings/*path" do
     Proxy.forward conn, path, "http://resource/meetings/"
   end
-  match "/news-items/search/*path" do
+  match "/beslissingenvlaamseregering/news-items/search/*path" do
     Proxy.forward conn, path, "http://mu-search/news-items/search/"
   end
   match _ do
