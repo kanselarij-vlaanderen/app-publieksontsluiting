@@ -21,19 +21,25 @@ defmodule Dispatcher do
   # match "/themes/*path" do
   #   Proxy.forward conn, path, "http://resource/themes/"
   # end
-  match "/vlaamse-regering/beslissingenvlaamseregering/mandatees/*path" do
+  get "/vlaamse-regering/beslissingenvlaamseregering/mandatees/*path" do
     Proxy.forward conn, path, "http://resource/mandatees/"
   end
-  match "/vlaamse-regering/beslissingenvlaamseregering/people/*path" do
+  get "/vlaamse-regering/beslissingenvlaamseregering/people/*path" do
     Proxy.forward conn, path, "http://resource/people/"
   end
-  match "/vlaamse-regering/beslissingenvlaamseregering/themes/*path" do
+  get "/vlaamse-regering/beslissingenvlaamseregering/themes/*path" do
     Proxy.forward conn, path, "http://resource/themes/"
   end
-  match "/vlaamse-regering/beslissingenvlaamseregering/meetings/*path" do
+  get "/vlaamse-regering/beslissingenvlaamseregering/meetings/*path" do
     Proxy.forward conn, path, "http://resource/meetings/"
   end
-  match "/vlaamse-regering/beslissingenvlaamseregering/news-items/search/*path" do
+  get "/vlaamse-regering/beslissingenvlaamseregering/newsletter-infos/*path" do
+    Proxy.forward conn, path, "http://resource/newsletter-infos/"
+  end
+  get "/vlaamse-regering/beslissingenvlaamseregering/document-versions/*path" do
+    Proxy.forward conn, path, "http://resource/document-versions/"
+  end
+  get "/vlaamse-regering/beslissingenvlaamseregering/news-items/search/*path" do
     Proxy.forward conn, path, "http://mu-search/news-items/search/"
   end
   match _ do
