@@ -55,17 +55,11 @@
           "http://purl.org/dc/terms/title"
         ],
         "sessionDate": [
-          "^http://www.w3.org/ns/prov#generated",
-          "http://data.vlaanderen.be/ns/besluitvorming#isGeagendeerdVia",
-          "^http://purl.org/dc/terms/hasPart",
-          "^http://data.vlaanderen.be/ns/besluitvorming#behandelt",
+          "^http://mu.semte.ch/vocabularies/ext/publishedNieuwsbriefInfo",
           "http://data.vlaanderen.be/ns/besluit#geplandeStart"
         ],
         "sessionId": [
-          "^http://www.w3.org/ns/prov#generated",
-          "http://data.vlaanderen.be/ns/besluitvorming#isGeagendeerdVia",
-          "^http://purl.org/dc/terms/hasPart",
-          "^http://data.vlaanderen.be/ns/besluitvorming#behandelt",
+          "^http://mu.semte.ch/vocabularies/ext/publishedNieuwsbriefInfo",
           "http://mu.semte.ch/vocabularies/core/uuid"
         ],
         "priority": [
