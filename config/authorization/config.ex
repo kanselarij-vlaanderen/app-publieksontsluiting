@@ -164,7 +164,8 @@ defmodule Acl.UserGroups.Config do
               "http://data.vlaanderen.be/ns/besluit#Agendapunt",
               "http://dbpedia.org/ontology/Case",
               "http://dbpedia.org/ontology/UnitOfWork",
-              "http://data.vlaanderen.be/ns/besluit#Zitting"
+              "http://data.vlaanderen.be/ns/besluit#Zitting",
+              "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject"
             ]
           } } ]
       },
