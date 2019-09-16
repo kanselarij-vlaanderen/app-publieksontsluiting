@@ -10,6 +10,6 @@
 (add-prefix "adms" "http://www.w3.org/ns/adms#")
 (add-prefix "nfo" "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#")
 (add-prefix "nie" "http://www.semanticdesktop.org/ontologies/2007/01/19/nie#")
-(add-prefix "dbpedia" "http://dbpedia.org/resource/")
+(add-prefix "dbpedia" "http://dbpedia.org/ontology/")
 (add-prefix "besluitvorming" "http://data.vlaanderen.be/ns/besluitvorming#")
 (add-prefix "skos" "http://www.w3.org/2004/02/skos/core#")

@@ -39,6 +39,9 @@ defmodule Dispatcher do
   get "/vlaamse-regering/beslissingenvlaamseregering/document-versions/*path" do
     Proxy.forward conn, path, "http://resource/document-versions/"
   end
+  get "/vlaamse-regering/beslissingenvlaamseregering/files/*path" do
+    Proxy.forward conn, path, "http://resource/files/"
+  end
   get "/vlaamse-regering/beslissingenvlaamseregering/news-items/search/*path" do
     Proxy.forward conn, path, "http://mu-search/news-items/search/"
   end

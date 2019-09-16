@@ -14,6 +14,8 @@
   :properties `((:version-number        :string   ,(s-prefix "ext:versieNummer")))
   :has-one `((file                      :via      ,(s-prefix "ext:file")
                                         :as "file")
+            (file                       :via      ,(s-prefix "ext:convertedFile")
+                                        :as "converted-file")
             (document                   :via      ,(s-prefix "besluitvorming:heeftVersie")
                                         :inverse t
                                         :as "document"))
@@ -39,4 +41,3 @@
   :resource-base (s-url "http://kanselarij.vo.data.gift/id/concept/document-type-codes/")
   :features '(include-uri)
   :on-path "document-types")
-
