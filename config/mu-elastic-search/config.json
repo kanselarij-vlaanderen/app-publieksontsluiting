@@ -44,6 +44,18 @@
           "http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan",
           "http://xmlns.com/foaf/0.1/name"
         ],
+        "mandateeFirstNames": [
+          "^http://www.w3.org/ns/prov#generated",
+          "http://data.vlaanderen.be/ns/besluitvorming#heeftBevoegde",
+          "http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan",
+          "http://xmlns.com/foaf/0.1/firstName"
+        ],
+        "mandateeFamilyNames": [
+          "^http://www.w3.org/ns/prov#generated",
+          "http://data.vlaanderen.be/ns/besluitvorming#heeftBevoegde",
+          "http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan",
+          "http://xmlns.com/foaf/0.1/familyName"
+        ],
         "mandateeIds": [
           "^http://www.w3.org/ns/prov#generated",
           "http://data.vlaanderen.be/ns/besluitvorming#heeftBevoegde",
