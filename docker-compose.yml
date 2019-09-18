@@ -56,7 +56,7 @@ services:
     restart: always
     logging: *default-logging
   migrations:
-    image: semtech/mu-migrations-service:latest
+    image: semtech/mu-migrations-service:0.5.1
     links:
       - virtuoso:database
     environment:
