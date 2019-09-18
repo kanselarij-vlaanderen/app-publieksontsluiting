@@ -10,7 +10,7 @@
   "attachments_path_base": "/data/",
   "eager_indexing_sparql_query": false,
   "additive_indexes": true,
-  "persist_indexes": false,
+  "persist_indexes": true,
   "default_settings": {
     "analysis": {
       "analyzer": {
