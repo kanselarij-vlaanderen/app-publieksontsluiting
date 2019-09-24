@@ -77,12 +77,12 @@ services:
       - "logging=true"
     restart: always
     logging: *default-logging
-  mu-search:
+  search:
     image: semtech/mu-search:0.6.0-beta.2
     environment:
       MU_SPARQL_ENDPOINT: "http://virtuoso:8890/sparql"
     volumes:
-      - ./config/mu-elastic-search:/config
+      - ./config/search:/config
     labels:
       - "logging=true"
     restart: always

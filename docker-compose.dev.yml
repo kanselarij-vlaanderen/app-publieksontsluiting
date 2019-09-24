@@ -24,7 +24,7 @@ services:
     restart: "no"
   resource:
     restart: "no"
-  mu-search:
+  search:
     environment:
       LOG_LEVEL: "debug"
       RACK_ENV: "development"

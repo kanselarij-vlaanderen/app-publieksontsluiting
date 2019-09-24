@@ -43,7 +43,7 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://file/files/"
   end
   get "/vlaamse-regering/beslissingenvlaamseregering/news-items/search/*path" do
-    Proxy.forward conn, path, "http://mu-search/news-items/search/"
+    Proxy.forward conn, path, "http://search/news-items/search/"
   end
   match _ do
     send_resp( conn, 404, "Route not found.  See config/dispatcher.ex" )
