@@ -21,28 +21,28 @@ defmodule Dispatcher do
   # match "/themes/*path" do
   #   Proxy.forward conn, path, "http://resource/themes/"
   # end
-  get "/vlaamse-regering/beslissingenvlaamseregering/mandatees/*path" do
+  get "/mandatees/*path" do
     Proxy.forward conn, path, "http://resource/mandatees/"
   end
-  get "/vlaamse-regering/beslissingenvlaamseregering/people/*path" do
+  get "/people/*path" do
     Proxy.forward conn, path, "http://resource/people/"
   end
-  get "/vlaamse-regering/beslissingenvlaamseregering/themes/*path" do
+  get "/themes/*path" do
     Proxy.forward conn, path, "http://resource/themes/"
   end
-  get "/vlaamse-regering/beslissingenvlaamseregering/meetings/*path" do
+  get "/meetings/*path" do
     Proxy.forward conn, path, "http://resource/meetings/"
   end
-  get "/vlaamse-regering/beslissingenvlaamseregering/newsletter-infos/*path" do
+  get "/newsletter-infos/*path" do
     Proxy.forward conn, path, "http://resource/newsletter-infos/"
   end
-  get "/vlaamse-regering/beslissingenvlaamseregering/document-versions/*path" do
+  get "/document-versions/*path" do
     Proxy.forward conn, path, "http://resource/document-versions/"
   end
   get "/files/*path" do
     Proxy.forward conn, path, "http://file/files/"
   end
-  get "/vlaamse-regering/beslissingenvlaamseregering/news-items/search/*path" do
+  get "/news-items/search/*path" do
     Proxy.forward conn, path, "http://search/news-items/search/"
   end
   match _ do
