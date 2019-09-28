@@ -27,7 +27,6 @@ services:
   search:
     environment:
       LOG_LEVEL: "debug"
-      RACK_ENV: "development"
     restart: "no"
     ports:
       - "8888:80"
