@@ -22,22 +22,22 @@ defmodule Dispatcher do
   #   Proxy.forward conn, path, "http://resource/themes/"
   # end
   get "/mandatees/*path" do
-    Proxy.forward conn, path, "http://resource/mandatees/"
+    Proxy.forward conn, path, "http://cache/mandatees/"
   end
   get "/people/*path" do
-    Proxy.forward conn, path, "http://resource/people/"
+    Proxy.forward conn, path, "http://cache/people/"
   end
   get "/themes/*path" do
-    Proxy.forward conn, path, "http://resource/themes/"
+    Proxy.forward conn, path, "http://cache/themes/"
   end
   get "/meetings/*path" do
-    Proxy.forward conn, path, "http://resource/meetings/"
+    Proxy.forward conn, path, "http://cache/meetings/"
   end
   get "/newsletter-infos/*path" do
-    Proxy.forward conn, path, "http://resource/newsletter-infos/"
+    Proxy.forward conn, path, "http://cache/newsletter-infos/"
   end
   get "/document-versions/*path" do
-    Proxy.forward conn, path, "http://resource/document-versions/"
+    Proxy.forward conn, path, "http://cache/document-versions/"
   end
   get "/files/*path" do
     Proxy.forward conn, path, "http://file/files/"
