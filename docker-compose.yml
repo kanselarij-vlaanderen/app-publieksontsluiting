@@ -9,7 +9,7 @@ x-logging:
 
 services:
   frontend:
-    image: kanselarij/frontend-publieksontsluiting:latest
+    image: kanselarij/frontend-valvas:latest
     links:
       - identifier:backend
   identifier:

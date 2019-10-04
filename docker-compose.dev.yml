@@ -35,7 +35,7 @@ services:
   kibana:
     image: docker.elastic.co/kibana/kibana:7.2.0
     volumes:
-      - ./config/mu-elastic-search:/search
+      - ./config/search:/search
     ports:
       - 5601:5601
     userns_mode: "host"
