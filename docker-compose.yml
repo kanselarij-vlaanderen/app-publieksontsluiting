@@ -18,6 +18,7 @@ services:
       - dispatcher:dispatcher
     environment:
       DEFAULT_MU_AUTH_ALLOWED_GROUPS_HEADER: "[{\"variables\":[],\"name\":\"public\"}]"
+      DEFAULT_ACCESS_CONTROL_ALLOW_ORIGIN_HEADER: "*"
     labels:
       - "logging=true"
     restart: always
