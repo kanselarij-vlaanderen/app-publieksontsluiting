@@ -92,33 +92,6 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns2:uuid	"81ee9342-dec2-11e9-aa72-0242c0a80002" ;
 	foaf:familyName	"Sannen" ;
 	foaf:firstName	"Ludo" .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820ec928-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820ec928-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"GM van Sociale Zaken" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/8203a46c-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1992-10-20"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/personen/8203a46c-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"8203a46c-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"Deti\u00E8ge" ;
-	foaf:firstName	"Leona" .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820cef04-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820cef04-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"GM van Leefmilieu en Huisvesting" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/8202a62a-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1992-02-05"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/personen/8202a62a-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"8202a62a-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"De Batselier" ;
-	foaf:firstName	"Norbert" .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81fbef10-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81fbef10-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Leefmilieu en Tewerkstelling" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81fbedc6-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1995-06-20"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/personen/81fbedc6-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"81fbedc6-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"Kelchtermans" ;
-	foaf:firstName	"Theo" .
 <http://kanselarij.vo.data.gift/id/mandatarissen/819ebee4-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"819ebee4-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"Minister-president van de Vlaamse Regering" ;
@@ -327,15 +300,6 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM van Onderwijs" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/819eb368-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2019-07-02"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81f14254-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81f14254-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Leefmilieu en Landbouw" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81f140ec-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1999-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/personen/81f140ec-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"81f140ec-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"Dua" ;
-	foaf:firstName	"Vera" .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81dd5154-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81dd5154-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Innovatie" ;
@@ -345,15 +309,6 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns2:uuid	"81c3a510-dec2-11e9-aa72-0242c0a80002" ;
 	foaf:familyName	"Lieten" ;
 	foaf:firstName	"Ingrid" .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820ee62e-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820ee62e-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"GM van Leefmilieu, Natuurbehoud en Landinrichting" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81fbedc6-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1988-10-18"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/personen/81fbf2d0-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"81fbf2d0-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"Demeester De Meyer" ;
-	foaf:firstName	"- Wivina" .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81e4dd66-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81e4dd66-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Binnenlands Bestuur, Stedenbeleid, Wonen en Inburgering" ;
@@ -368,43 +323,6 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM van Financi\u00EBn, Begroting, Werk, Ruimtelijke Ordening en Sport" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/819eb5ca-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2009-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/personen/82033fb8-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"82033fb8-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"Weckx" ;
-	foaf:firstName	"Hugo" .
-<http://kanselarij.vo.data.gift/id/mandatarissen/8205f23a-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"8205f23a-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"Minister-president van de Vlaamse regering" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81fbddb8-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1992-10-20"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/personen/81fbddb8-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"81fbddb8-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"Van Den Brande" ;
-	foaf:firstName	"Luc" .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81f147b8-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81f147b8-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Financi\u00EBn en Begroting, Innovatie, Media en Ruimtelijke Ordening" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ddb23e-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1999-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820cd8a2-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820cd8a2-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"GM van Financi\u00EBn en Begroting, Gezondheidsinstellingen, Welzijn en Gezin" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81fbf2d0-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1992-02-05"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81f6bee6-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81f6bee6-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Economie, Ruimtelijke Ordening en Media" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ddb23e-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1999-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/821dcc20-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"821dcc20-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"Voorzitter Nationaal Gulden Sporencomite" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/821dc95a-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1981-12-22"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/personen/821dc95a-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"821dc95a-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"Van Gheluwe" ;
-	foaf:firstName	"Guido" .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81e4c60a-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81e4c60a-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Openbare Werken, Energie, Leefmilieu en Natuur" ;
@@ -415,15 +333,6 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM van Economie, Ondernemen, Wetenschap, Innovatie en Buitenlandse Handel" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81dd2666-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2004-07-20"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/82060f04-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"82060f04-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Onderwijs en Ambtenarenzaken" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ffa7ea-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1992-10-20"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/personen/81ffa7ea-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"81ffa7ea-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"Van Den Bossche" ;
-	foaf:firstName	"Luc" .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81dd5a6e-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81dd5a6e-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Bestuurszaken" ;
@@ -447,10 +356,6 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns2:uuid	"81e4b502-dec2-11e9-aa72-0242c0a80002" ;
 	foaf:familyName	"Leterme" ;
 	foaf:firstName	"Yves" .
-<http://kanselarij.vo.data.gift/id/personen/81fbf960-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"81fbf960-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"Peeters" ;
-	foaf:firstName	"Leo" .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81ddb52c-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81ddb52c-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Binnenlands Bestuur, Stedenbeleid, Wonen en Inburgering" ;
@@ -466,15 +371,6 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM van Binnenlands Bestuur" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ddb450-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2007-06-28"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/821d5c90-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"821d5c90-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"Kabinetschef" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/821d59d4-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1981-12-22"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/personen/821d59d4-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"821d59d4-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"O." ;
-	foaf:firstName	"Coenen" .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81e4c8d0-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81e4c8d0-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Mobiliteit, Sociale Economie en Gelijke Kansen" ;
@@ -489,11 +385,6 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM van Institutionele Hervormingen, Bestuurszaken, Buitenlands Beleid, Media, Toerisme, Havens, Landbouw, Zeevisserij en Plattelandsbeleid" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81c39f20-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2007-06-28"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820c9f9a-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820c9f9a-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"GM van Onderwijs en Ambtenarenzaken" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ffa7ea-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1992-10-20"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81de0194-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81de0194-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Institutionele Hervormingen, Bestuurszaken, Buitenlands Beleid, Media, Toerisme, Havens, Landbouw, Zeevisserij en Plattel" ;
@@ -507,10 +398,6 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns2:uuid	"81ddc846-dec2-11e9-aa72-0242c0a80002" ;
 	foaf:familyName	"Heeren" ;
 	foaf:firstName	"Veerle" .
-<http://kanselarij.vo.data.gift/id/personen/821316ae-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"821316ae-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"L." ;
-	foaf:firstName	"Waltniel" .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81ecd2e6-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81ecd2e6-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Mobiliteit, Openbare Werken en Energie" ;
@@ -525,25 +412,11 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM van Werk, Onderwijs en Vorming" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81dea82e-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2007-06-28"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/8205fa82-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"8205fa82-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Leefmilieu en Huisvesting" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/8202a62a-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1992-10-20"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81dd8318-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81dd8318-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Openbare Werken" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/819ebc82-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2009-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/personen/821d4a2a-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"821d4a2a-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"R." ;
-	foaf:firstName	"Charles" .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81f15302-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81f15302-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Mobiliteit, Openbare Werken en Energie" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ecd1c4-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1999-07-13"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81e4be76-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81e4be76-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Welzijn, Volksgezondheid en Gezin" ;
@@ -554,15 +427,6 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM van Financi\u00EBn" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/819eb5ca-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2009-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81f12e68-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81f12e68-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"Minister-president van de Vlaamse regering" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81f12d5a-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1999-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/personen/81f12d5a-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"81f12d5a-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"Dewael" ;
-	foaf:firstName	"Patrick" .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81dd5fb4-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81dd5fb4-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM  van Onderwijs" ;
@@ -573,11 +437,6 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM van Financi\u00EBn en Begroting en Ruimtelijke Ordening" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ddb23e-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2004-07-20"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/82079022-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"82079022-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Tewerkstelling en Sociale Aangelegenheden" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/8203a46c-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1992-10-20"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81de068a-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81de068a-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Bestuurszaken, Buitenlands Beleid, Media en Toerisme" ;
@@ -591,15 +450,6 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns2:uuid	"81eccf44-dec2-11e9-aa72-0242c0a80002" ;
 	foaf:familyName	"Somers" ;
 	foaf:firstName	"Bart" .
-<http://kanselarij.vo.data.gift/id/personen/81fc07e8-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"81fc07e8-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"Martens" ;
-	foaf:firstName	"Luc" .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820629e4-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820629e4-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Financi\u00EBn en Begroting, Gezondheidsinstellingen, Welzijn en Gezin" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81fbf2d0-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1992-10-20"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81de5630-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81de5630-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Welzijn, Volksgezondheid en Gezin" ;
@@ -610,38 +460,15 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM van Openbare Werken, Energie, Leefmilieu en Natuur" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ddc134-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2007-06-28"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820cdbc2-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820cdbc2-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"GM van Verkeer, Buitenlandse Handel en Staatshervorming" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81cd593e-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1992-02-05"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/personen/81cd593e-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
 	ns2:uuid	"81cd593e-dec2-11e9-aa72-0242c0a80002" ;
 	foaf:familyName	"Sauwens" ;
 	foaf:firstName	"Johan" .
-<http://kanselarij.vo.data.gift/id/mandatarissen/82175656-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"82175656-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"Voorzitter" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/8217539a-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1985-12-10"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/personen/8217539a-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"8217539a-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"F." ;
-	foaf:firstName	"Grootjans" .
-<http://kanselarij.vo.data.gift/id/personen/8200a258-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"8200a258-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"Van Asbroeck" ;
-	foaf:firstName	"Anne" .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81ddb8ec-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81ddb8ec-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Institutionele Hervormingen, Bestuurszaken, Buitenlands Beleid, Media, Toerisme, Havens, Landbouw, Zeevisserij en Plattel" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81c39f20-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2007-06-28"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81ffa952-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81ffa952-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Onderwijs en Ambtenarenzaken" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ffa7ea-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1995-06-20"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81ddbc7a-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81ddbc7a-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Werk, Onderwijs en Vorming" ;
@@ -671,34 +498,6 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM van Institutionele Hervormingen, Havens, Landbouw, Zeevisserij en Plattelandsbeleid" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81c39f20-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2007-06-28"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81f7a6a8-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81f7a6a8-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Binnenlandse Aangelegenheden, Ambtenarenzaken en Sport" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81cd593e-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1999-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81f41b64-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81f41b64-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Economie, Buitenlandse Handel en Huisvesting" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81f13868-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1999-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/personen/81f13868-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"81f13868-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"Gabriels" ;
-	foaf:firstName	"Jaak" .
-<http://kanselarij.vo.data.gift/id/personen/820f08fc-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"820f08fc-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"Waltniel" ;
-	foaf:firstName	"Louis" .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820eece6-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820eece6-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"GM van Cultuur" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81f12d5a-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1988-10-18"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81fbe48e-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81fbe48e-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Buitenlands Beleid, Europese Aangelegenheden, Wetenschap en Technologie" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81fbddb8-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1995-06-20"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81df2eb6-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81df2eb6-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Bestuurszaken, Buitenlands Beleid, Media en Toerisme" ;
@@ -714,11 +513,6 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM  van Leefmilieu, Natuur en Cultuur" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/819ebc82-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2009-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/8202c506-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"8202c506-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Financi\u00EBn en Begroting, Gezondheidsinstellingen, Welzijn en Gezin" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81fbf2d0-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1995-06-20"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81e0ad5e-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81e0ad5e-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Financi\u00EBn en Begroting en Ruimtelijke Ordening" ;
@@ -733,20 +527,6 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM van Binnenlandse Aangelegenheden, Ambtenarenzaken en Sport" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81cd593e-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2009-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820ecd1a-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820ecd1a-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"GM van Financi\u00EBn en Begroting, Gezondheidsinstellingen, Welzijn en Gezin" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81fbf2d0-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1992-10-20"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81f15780-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81f15780-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Sport en Hoofdstedelijke Aangelegenheden" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81f1565e-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1999-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/personen/81f1565e-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"81f1565e-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"Vanhengel" ;
-	foaf:firstName	"Guy" .
 <http://kanselarij.vo.data.gift/id/mandatarissen/819f24d8-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"819f24d8-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Brusselse aangelegenheden" ;
@@ -767,29 +547,11 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM van Economie" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81c39f20-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2009-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/personen/82067746-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"82067746-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"A. B." ;
-	foaf:firstName	"Van den Brande (VR/95/29.03/doc.0227), Van den Brande   (VR/95/29.03/doc.0243),      Peeters" .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81f12ae4-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81f12ae4-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Leefmilieu, Landbouw en Ontwikkelingssamenwerking" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ee9342-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1999-07-13"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81e0b75e-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81e0b75e-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Institutionele Hervormingen, Havens, Landbouw, Zeevisserij en Plattelandsbeleid" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/819f36e4-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2007-06-28"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820f1072-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820f1072-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"GM van Welzijn en Gezin" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/820f0eba-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1988-10-18"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/personen/820f0eba-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"820f0eba-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"Lenssens" ;
-	foaf:firstName	"Jan" .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81ecccd8-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81ecccd8-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Wonen, Media en Sport" ;
@@ -809,48 +571,16 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM van Mobiliteit, Sociale Economie en Gelijke Kansen" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/819eb368-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2007-06-28"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820cfd32-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820cfd32-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"GM van Sociale Zaken" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/8203a46c-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1992-02-05"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/personen/81f13318-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"81f13318-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"Vogels" ;
-	foaf:firstName	"Mieke" .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81a32fe2-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81a32fe2-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Omgeving, Natuur en landbouw" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81a32e66-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2014-05-25"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81fc4cf8-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81fc4cf8-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Brusselse Aangelegenheden en Gelijkekansenbeleid" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81fc4b40-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1995-06-20"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/personen/81fc4b40-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"81fc4b40-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"Grouwels" ;
-	foaf:firstName	"Brigitte" .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81dd61c6-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81dd61c6-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM  van Leefmilieu" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81a32e66-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2009-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81f14e48-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81f14e48-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Binnenlandse Aangelegenheden, Cultuur, Jeugd en Ambtenarenzaken" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ecc59e-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1999-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81f1e1aa-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81f1e1aa-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Mobiliteit, Openbare Werken en Energie" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81f1e056-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1999-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/personen/81f1e056-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"81f1e056-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"Stevaert" ;
-	foaf:firstName	"Steve" .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81ddd908-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81ddd908-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Mobiliteit, Sociale Economie en Gelijke Kansen" ;
@@ -896,54 +626,15 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM van Binnenlandse Aangelegenheden, Cultuur, Jeugd en Ambtenarenzaken" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ecc59e-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2003-06-10"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81f13e62-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81f13e62-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Onderwijs en Vorming" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ecc95e-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1999-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820f152c-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820f152c-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"GM van Volksgezondheid en Brusselse Aangelegenheden" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/82033fb8-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1988-10-18"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81f68174-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81f68174-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Cultuur, Jeugd, Brusselse Aangelegenheden en Ontwikkelingssamenwerking" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ddbe50-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1999-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820f1946-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820f1946-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"GM van Onderwijs" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/820f1784-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1988-10-18"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/personen/820f1784-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"820f1784-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"Coens" ;
-	foaf:firstName	"Dani\u00EBl" .
 <http://kanselarij.vo.data.gift/id/personen/81ecc2b0-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
 	ns2:uuid	"81ecc2b0-dec2-11e9-aa72-0242c0a80002" ;
 	foaf:familyName	"Landuyt" ;
 	foaf:firstName	"Renaat" .
-<http://kanselarij.vo.data.gift/id/mandatarissen/82063006-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"82063006-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Tewerkstelling en Sociale Aangelegenheden" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81fbf960-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1992-10-20"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81f41ed4-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81f41ed4-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Welzijn, Gezondheid en Gelijke Kansen" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81f13318-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1999-07-13"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81ee945a-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81ee945a-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Leefmilieu, Landbouw en Ontwikkelingssamenwerking" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ee9342-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2003-06-10"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/8202a7ce-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"8202a7ce-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Leefmilieu en Huisvesting" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/8202a62a-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1995-06-20"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/819f7da2-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"819f7da2-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Mobiliteit, Openbare Werken, Vlaamse Rand, Toerisme en Dierenwelzijn" ;
@@ -958,16 +649,6 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns2:uuid	"81a42adc-dec2-11e9-aa72-0242c0a80002" ;
 	foaf:familyName	"Tommelein" ;
 	foaf:firstName	"Bart" .
-<http://kanselarij.vo.data.gift/id/mandatarissen/82038f2c-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"82038f2c-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Verkeer, Buitenlandse Handel en Staatshervorming" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81cd593e-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1995-06-20"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820f0aaa-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820f0aaa-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"GM van Ruimtelijke Ordening en Huisvesting" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/820f08fc-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1988-10-18"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81ddb72a-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81ddb72a-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"Minister-president van de Vlaamse Regering" ;
@@ -983,11 +664,6 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM van Welzijn" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/819ebc82-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2009-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81fbf410-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81fbf410-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Financi\u00EBn, Begroting en Gezondheidsbeleid" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81fbf2d0-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1995-06-20"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81e08a90-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81e08a90-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Institutionele Hervormingen, Havens, Landbouw, Zeevisserij en Plattelandsbeleid" ;
@@ -998,35 +674,11 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM van Financi\u00EBn, Begroting, Werk, Ruimtelijke Ordening en Sport" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81c3cea0-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2009-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81f410ec-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81f410ec-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Binnenlandse Aangelegenheden, Ambtenarenzaken en Buitenlands Beleid" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ecc59e-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1999-07-13"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81c3a8a8-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81c3a8a8-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Mobiliteit en Openbare Werken" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/819eb368-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2009-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81fbe1e6-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81fbe1e6-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Onderwijs en Ambtenarenzaken" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81fbe0b0-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1995-06-20"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/personen/81fbe0b0-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"81fbe0b0-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"Baldewijns" ;
-	foaf:firstName	"Eddy" .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820623c2-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820623c2-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Verkeer, Buitenlandse Handel en Staatshervorming" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81cd593e-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1992-10-20"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/8202ab5c-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"8202ab5c-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Openbare Werken, Ruimtelijke Ordening en Binnenlandse Aangelegenheden" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81fbedc6-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1995-06-20"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81e35554-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81e35554-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Werk" ;
@@ -1046,36 +698,11 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"Minister-president van de Vlaamse regering" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81eccf44-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2003-06-10"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820ec1ee-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820ec1ee-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"GM van Cultuur en Brusselse Aangelegenheden" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/82033fb8-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1992-10-20"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81de51da-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81de51da-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"Minister-president van de Vlaamse Regering" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/819eb368-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2007-06-28"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/8203a5de-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"8203a5de-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Tewerkstelling en Sociale Aangelegenheden" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/8203a46c-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1995-06-20"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820ef10a-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820ef10a-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"GM van Economie, Middenstand en Energie" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/8202a62a-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1988-10-18"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81fc093c-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81fc093c-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Cultuur, Gezin en Welzijn" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81fc07e8-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1995-06-20"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81f13980-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81f13980-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Economie, Buitenlands Beleid, Buitenlandse Handel en Huisvesting" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81f13868-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1999-07-13"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/819f4634-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"819f4634-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Welzijn, Volksgezondheid en Gezin" ;
@@ -1086,40 +713,11 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM van Bestuurszaken, Binnenlands Bestuur, Inburgering, Toerisme en Vlaamse Rand" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/819f36e4-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2009-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81f4229e-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81f4229e-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Cultuur, Jeugd, Sport, Brusselse Aangelegenheden en Ontwikkelingssamenwerking" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ddbe50-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1999-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/8200a3d4-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"8200a3d4-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Brusselse Aangelegenheden en Gelijke Kansenbeleid" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/8200a258-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1995-06-20"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81fbe7ea-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81fbe7ea-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Economie, KMO, Landbouw en Media" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81fbe6b4-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1995-06-20"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/personen/81fbe6b4-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"81fbe6b4-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"Van Rompuy" ;
-	foaf:firstName	"Eric" .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81de19d6-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81de19d6-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"Minister-president van de Vlaamse regering" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81c39f20-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2007-06-28"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820ee2c8-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820ee2c8-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"GM van Openbare Werken en Verkeer" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81cd593e-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1988-10-18"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820cd5a0-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820cd5a0-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"GM van Onderwijs en Ambtenarenzaken" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ffa7ea-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1992-02-05"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81dd803e-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81dd803e-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Bestuurszaken" ;
@@ -1135,11 +733,6 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM van Economie, Buitenlands Beleid, Landbouw en Plattelandsbeleid" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81c39f20-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2009-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81fa9d7c-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81fa9d7c-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Cultuur, Jeugd, Stedelijk Beleid, Huisvesting en Brusselse Aangelegenheden" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ddbe50-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1999-07-13"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81e5a3a4-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81e5a3a4-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Institutionele Hervormingen, Havens, Landbouw, Zeevisserij en Plattelandsbeleid" ;
@@ -1155,50 +748,21 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"Minister-president van de Vlaamse regering" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81e4b502-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2004-07-20"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81fbfaaa-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81fbfaaa-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Binnenlandse Aangelegenheden, Stedelijk Beleid en Huisvesting" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81fbf960-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1995-06-20"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81e4b840-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81e4b840-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Werk, Onderwijs en Vorming" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ddbbbc-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2004-07-20"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81ffb0aa-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81ffb0aa-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Openbare Werken, Vervoer en Ruimtelijke Ordening" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81fbe0b0-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1995-06-20"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81ecd4e4-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81ecd4e4-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Economie, Buitenlands Beleid en E-government" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81dd2666-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2003-06-10"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820edfbc-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820edfbc-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"Voorzitter van de Vlaamse Executieve" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/820ede04-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1988-10-18"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/personen/820ede04-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns5:Person ;
-	ns2:uuid	"820ede04-dec2-11e9-aa72-0242c0a80002" ;
-	foaf:familyName	"Geens" ;
-	foaf:firstName	"Gaston" .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81ecc3c8-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81ecc3c8-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Werkgelegenheid en Toerisme" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ecc2b0-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2003-06-10"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820cec16-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820cec16-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"Voorzitter van de Vlaamse Executieve" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81fbddb8-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1992-02-05"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81f1286e-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81f1286e-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Welzijn, Gezondheid en Gelijke Kansen" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ecdb9c-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1999-07-13"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81ecd854-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81ecd854-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Leefmilieu, Landbouw en Ontwikkelingssamenwerking" ;
@@ -1213,26 +777,6 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM van Financi\u00EBn en Begroting, Innovatie, Media en Ruimtelijke Ordening" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ddb23e-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2003-06-10"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81f1dcfa-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81f1dcfa-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Sport en Brusselse Aangelegenheden" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81f1565e-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1999-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81f7054a-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81f7054a-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Financi\u00EBn, Begroting, Buitenlands Beleid en Europese Aangelegenheden" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81f12d5a-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1999-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820cf5ee-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820cf5ee-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"GM van Cultuur en Brusselse Aangelegenheden" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/82033fb8-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1992-02-05"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/8209b564-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"8209b564-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Economie, KMO, Wetenschapsbeleid, Energie en Externe Betrekkingen" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81fbddb8-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1992-10-20"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81e05700-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81e05700-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Bestuurszaken, Buitenlands Beleid, Media en Toerisme" ;
@@ -1243,26 +787,11 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM van Openbare Werken, Energie, Leefmilieu en Natuur" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/819eb368-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2007-06-28"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81f6c67a-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81f6c67a-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Binnenlandse Aangelegenheden, Huisvesting en Ambtenarenzaken" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ecc59e-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1999-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/8203413e-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"8203413e-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Cultuur en Brusselse Aangelegenheden" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/82033fb8-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1995-06-20"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81ddfb90-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81ddfb90-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Economie, Ondernemen, Wetenschap, Innovatie en Buitenlandse Handel" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ddb450-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2007-06-28"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81f13444-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81f13444-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Welzijn, Gezondheid, Gelijke Kansen en Ontwikkelingssamenwerking" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81f13318-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1999-07-13"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/819f26a4-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"819f26a4-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Begroting, Financi\u00EBn, Energie, Cultuur, Media en Jeugd" ;
@@ -1273,21 +802,11 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM van Cultuur, Jeugd, Sport en Brussel" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ddbe50-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2004-07-20"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81ffbdca-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81ffbdca-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM  van Onderwijs en Ambtenarenzaken" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ffa7ea-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1995-06-20"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81dd3ed0-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81dd3ed0-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Energie, Wonen, Steden en Sociale Economie" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/819eb5ca-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2009-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81f136ce-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81f136ce-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Werkgelegenheid en Toerisme" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ecc2b0-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1999-07-13"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81e3c82c-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81e3c82c-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Economie, Ondernemen, Wetenschap, Innovatie en Buitenlandse Handel" ;
@@ -1298,31 +817,11 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM van Financi\u00EBn, Begroting, Werk, Ruimtelijke Ordening en Sport" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81c3bb2c-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2009-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81fbebd2-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81fbebd2-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Openbare Werken, Vervoer en Ruimtelijke Ordening" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81f1e056-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1995-06-20"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/82060c48-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"82060c48-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Openbare Werken, Ruimtelijke Ordening en Binnenlandse Aangelegenheden" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81fbedc6-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1992-10-20"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820678cc-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820678cc-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"A. minister-president, B. minister-president,     VM Tewerkstelling   en Sociale Aangelegenheden" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/82067746-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1992-10-20"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81ddc1fc-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81ddc1fc-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Mobiliteit, Sociale Economie en Gelijke Kansen" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ddc134-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2007-06-28"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820ee962-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820ee962-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"GM van Binnenlandse Aangelegenheden en Openbaar Ambt" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ffa7ea-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1988-10-18"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81de4f78-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81de4f78-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Openbare Werken, Energie, Leefmilieu en Natuur" ;
@@ -1333,26 +832,11 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM van Financi\u00EBn en Begroting, Ruimtelijke Ordening, Wetenschappen en Technologische Innovatie" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81ddb23e-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2003-06-10"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/81fbdf20-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"81fbdf20-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"Minister-president van de Vlaamse regering" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81fbddb8-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1995-06-20"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/821d4cdc-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"821d4cdc-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"Voorzitter" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/821d4a2a-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1981-12-22"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81dce19c-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81dce19c-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Energie, Wonen, Steden en Sociale Economie" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81c39f20-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2009-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/820cf26a-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"820cf26a-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"GM van Openbare Werken, Ruimtelijke Ordening en Binnenlandse Aangelegenheden" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/81fbedc6-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1992-02-05"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/mandatarissen/81c3a5b0-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
 	ns2:uuid	"81c3a5b0-dec2-11e9-aa72-0242c0a80002" ;
 	ns3:title	"VM van Innovatie, Overheidsinvesteringen, Media en Armoedebestrijding" ;
@@ -1363,16 +847,6 @@ ns8:c2a7e1d0-40ba-47bf-b6be-0e4ab3725161	rdf:type	ns5:Person ;
 	ns3:title	"VM van Mobiliteit en Openbare Werken" ;
 	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/819f36e4-dec2-11e9-aa72-0242c0a80002> ;
 	ns1:start	"2009-07-13"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/821318c0-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"821318c0-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"GM Ruimtelijke Ordening en Huisvesting" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/821316ae-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1988-10-18"^^xsd:date .
-<http://kanselarij.vo.data.gift/id/mandatarissen/82061620-dec2-11e9-aa72-0242c0a80002>	rdf:type	ns1:Mandataris ;
-	ns2:uuid	"82061620-dec2-11e9-aa72-0242c0a80002" ;
-	ns3:title	"VM van Cultuur en Brusselse Aangelegenheden" ;
-	ns1:isBestuurlijkeAliasVan	<http://kanselarij.vo.data.gift/id/personen/82033fb8-dec2-11e9-aa72-0242c0a80002> ;
-	ns1:start	"1992-10-20"^^xsd:date .
 <http://kanselarij.vo.data.gift/id/personen/5D9865BBB158960008000001>	rdf:type	ns5:Person ;
 	ns2:uuid	"5D9865BBB158960008000001" ;
 	foaf:familyName	"Homans" ;
