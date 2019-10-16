@@ -13,3 +13,12 @@
 (read-domain-file "besluit-domain.lisp")
 (read-domain-file "document-domain.lisp")
 (read-domain-file "files-domain.lisp")
+
+(define-resource notification ()
+   :class (s-prefix "ext:Notification")
+   :properties `((:title :string ,(s-prefix "dct:title"))
+                 (:description :string ,(s-prefix "dct:description")))
+   :has-one `((meeting :via ,(s-prefix "dct:subject")
+                       :as "meeting"))
+   :resource-base (s-url "http://kanselarij.vo.data.gift/notifications/")
+   :on-path "notifications")

@@ -21,6 +21,9 @@ defmodule Dispatcher do
   # match "/themes/*path" do
   #   Proxy.forward conn, path, "http://resource/themes/"
   # end
+  get "/notifications/*path" do
+    Proxy.forward conn, path, "http://cache/notifications/"
+  end
   get "/mandatees/*path" do
     Proxy.forward conn, path, "http://cache/mandatees/"
   end
