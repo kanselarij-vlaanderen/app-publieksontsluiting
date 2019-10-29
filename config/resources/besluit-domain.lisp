@@ -4,7 +4,8 @@
                 (:started-on            :datetime ,(s-prefix "prov:startedAtTime")) ;; NOTE: Kept ':geplande-start' from besluit instead of ':start' from besluitvorming
                 (:ended-on              :datetime ,(s-prefix "prov:endedAtTime")) ;; NOTE: Kept ':geeindigd-op-tijdstip' from besluit instead of ':eind' from besluitvorming
                 (:number                :number   ,(s-prefix "adms:identifier"))
-                (:location              :url      ,(s-prefix "prov:atLocation"))) ;; NOTE: besluitvorming mentions (unspecified) type 'Locatie' don't use this
+                (:location              :url      ,(s-prefix "prov:atLocation")) ;; NOTE: besluitvorming mentions (unspecified) type 'Locatie' don't use this
+                (:type                  :url , (s-prefix "ext:aard")))
   :has-many `((notification             :via      ,(s-prefix "dct:subject")
                                         :inverse t
                                         :as "notifications"))
