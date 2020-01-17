@@ -39,8 +39,8 @@ defmodule Dispatcher do
   get "/newsletter-infos/*path" do
     Proxy.forward conn, path, "http://cache/newsletter-infos/"
   end
-  get "/document-versions/*path" do
-    Proxy.forward conn, path, "http://cache/document-versions/"
+  get "/documents/*path" do
+    Proxy.forward conn, path, "http://cache/documents/"
   end
   get "/files/*path" do
     Proxy.forward conn, path, "http://file/files/"
