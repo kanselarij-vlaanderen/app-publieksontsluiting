@@ -54,90 +54,6 @@ defmodule Acl.UserGroups.Config do
       } LIMIT 1" }
   end
 
-  defp all_resource_types() do
-    [
-      "http://mu.semte.ch/vocabularies/ext/Goedkeuring",
-      "http://data.vlaanderen.be/ns/besluitvorming#Agenda",
-      "http://data.vlaanderen.be/ns/besluit#Agendapunt",
-      "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject",
-      "http://xmlns.com/foaf/0.1/Document",
-      "http://mu.semte.ch/vocabularies/ext/DocumentVersie",
-      "http://dbpedia.org/ontology/Case",
-      "http://dbpedia.org/ontology/UnitOfWork",
-      "http://data.vlaanderen.be/ns/besluitvorming#NieuwsbriefInfo",
-      "http://data.vlaanderen.be/ns/besluit#Besluit",
-      "http://data.vlaanderen.be/ns/besluit#Zitting",
-      "http://mu.semte.ch/vocabularies/ext/DocumentIdentifier",
-      "http://schema.org/Comment",
-      "http://mu.semte.ch/vocabularies/ext/DocumentTypeCode",
-      "http://mu.semte.ch/vocabularies/ext/ProcedurestapFase",
-      "http://mu.semte.ch/vocabularies/ext/Notule",
-      "http://mu.semte.ch/vocabularies/ext/ThemaCode",
-      "http://mu.semte.ch/vocabularies/ext/Thema",
-      "http://mu.semte.ch/vocabularies/ext/SysteemNotificatieType",
-      "https://data.vlaanderen.be/ns/besluitvorming#Mededeling",
-      "http://mu.semte.ch/vocabularies/ext/ProcedurestapFaseCode",
-      "http://mu.semte.ch/vocabularies/ext/VertrouwelijkheidCode",
-      "http://data.vlaanderen.be/ns/mandaat#Mandaat",
-      "http://mu.semte.ch/vocabularies/ext/BeleidsdomeinCode",
-      "http://data.vlaanderen.be/ns/mandaat#Mandataris",
-      "http://data.vlaanderen.be/ns/besluit#Bestuurseenheid",
-      "http://mu.semte.ch/vocabularies/ext/DossierTypeCode",
-      "http://mu.semte.ch/vocabularies/ext/SysteemNotificatie",
-      "http://mu.semte.ch/vocabularies/ext/ProcedurestapType",
-      "http://kanselarij.vo.data.gift/core/IseCode",
-      "http://kanselarij.vo.data.gift/id/concept/policy-level/",
-      "http://kanselarij.vo.data.gift/id/concept/submitter/",
-      "http://kanselarij.vo.data.gift/id/mandatarissen/",
-      "http://mu.semte.ch/vocabularies/ext/Handtekening",
-      "http://data.vlaanderen.be/ns/besluitvorming#Verdaagd",
-      "http://mu.semte.ch/vocabularies/ext/oc/Meeting",
-      "http://mu.semte.ch/vocabularies/ext/oc/AgendaItem",
-      "http://mu.semte.ch/vocabularies/ext/oc/Case",
-      "http://kanselarij.vo.data.gift/core/Beleidsdomein",
-      "http://kanselarij.vo.data.gift/core/Beleidsveld",
-      "http://www.w3.org/ns/person#Person",
-      "http://mu.semte.ch/vocabularies/ext/MailCampagne"
-    ]
-  end
-
-  defp unconfidential_resource_types() do
-    [
-      "http://mu.semte.ch/vocabularies/ext/Goedkeuring",
-      "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject",
-      "http://data.vlaanderen.be/ns/besluitvorming#NieuwsbriefInfo",
-      "http://mu.semte.ch/vocabularies/ext/DocumentIdentifier",
-      "http://schema.org/Comment",
-      "http://mu.semte.ch/vocabularies/ext/DocumentTypeCode",
-      "http://mu.semte.ch/vocabularies/ext/ProcedurestapFase",
-      "http://mu.semte.ch/vocabularies/ext/Notule",
-      "http://mu.semte.ch/vocabularies/ext/ThemaCode",
-      "http://mu.semte.ch/vocabularies/ext/Thema",
-      "http://mu.semte.ch/vocabularies/ext/SysteemNotificatieType",
-      "http://xmlns.com/foaf/0.1/OnlineAccount",
-      "http://xmlns.com/foaf/0.1/Person",
-      "http://xmlns.com/foaf/0.1/Group",
-      "https://data.vlaanderen.be/ns/besluitvorming#Mededeling",
-      "http://mu.semte.ch/vocabularies/ext/ProcedurestapFaseCode",
-      "http://mu.semte.ch/vocabularies/ext/VertrouwelijkheidCode",
-      "http://data.vlaanderen.be/ns/mandaat#Mandaat",
-      "http://mu.semte.ch/vocabularies/ext/BeleidsdomeinCode",
-      "http://data.vlaanderen.be/ns/mandaat#Mandataris",
-      "http://www.w3.org/ns/person#Person",
-      "http://data.vlaanderen.be/ns/besluit#Bestuurseenheid",
-      "http://mu.semte.ch/vocabularies/ext/DossierTypeCode",
-      "http://mu.semte.ch/vocabularies/ext/SysteemNotificatie",
-      "http://mu.semte.ch/vocabularies/ext/ProcedurestapType",
-      "http://kanselarij.vo.data.gift/core/IseCode",
-      "http://kanselarij.vo.data.gift/core/Beleidsdomein",
-      "http://kanselarij.vo.data.gift/core/Beleidsveld",
-      "http://mu.semte.ch/vocabularies/ext/Handtekening",
-      "http://data.vlaanderen.be/ns/besluitvorming#Verdaagd",
-      "http://www.w3.org/ns/person#Person",
-      "http://mu.semte.ch/vocabularies/ext/MailCampagne"
-    ]
-  end
-
   def user_groups do
     # These elements are walked from top to bottom.  Each of them may
     # alter the quads to which the current query applies.  Quads are
@@ -146,7 +62,6 @@ defmodule Acl.UserGroups.Config do
     # many ways.  The useage of a GroupSpec and GraphCleanup are
     # common.
     [
-      # // PUBLIC TODO for now public is the same as privileged and privileged is therefore not created
       %GroupSpec{
         name: "public",
         useage: [:read],
