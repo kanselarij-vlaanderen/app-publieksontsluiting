@@ -13,3 +13,4 @@
 (add-prefix "dbpedia" "http://dbpedia.org/ontology/")
 (add-prefix "besluitvorming" "http://data.vlaanderen.be/ns/besluitvorming#")
 (add-prefix "skos" "http://www.w3.org/2004/02/skos/core#")
+(add-prefix "dossier" "https://data.vlaanderen.be/ns/dossier#")

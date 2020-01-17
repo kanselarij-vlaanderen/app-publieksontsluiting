@@ -10,7 +10,7 @@
                 (:category              :string   ,(s-prefix "ext:newsItemCategory")))
   :has-many `((theme                    :via      ,(s-prefix "ext:themesOfSubcase")
                                         :as "themes")
-              (document-version         :via      ,(s-prefix "ext:documentVersie")
+              (document        :via      ,(s-prefix "ext:documentVersie")
                                         :as "document-versions"))
   :resource-base (s-url "http://kanselarij.vo.data.gift/id/nieuwsbrief-infos/")
   :features '(include-uri)
