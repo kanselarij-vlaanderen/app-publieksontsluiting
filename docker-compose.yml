@@ -85,7 +85,7 @@ services:
     restart: always
     logging: *default-logging
   search:
-    image: semtech/mu-search:0.6.0-beta.3
+    image: semtech/mu-search:0.6.0-beta.11
     environment:
       MU_SPARQL_ENDPOINT: "http://virtuoso:8890/sparql"
     volumes:
