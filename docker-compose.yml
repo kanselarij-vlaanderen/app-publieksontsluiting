@@ -113,3 +113,7 @@ services:
       - ./data/files:/share
     restart: always
     logging: *default-logging
+  deltanotifier:
+    image: semtech/mu-delta-notifier
+    volumes:
+      - ./config/delta:/config
