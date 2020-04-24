@@ -1,6 +1,7 @@
 {
   "batch_size": 128,
   "max_batches": 0,
+  "update_wait_interval_minutes": 1,
   "automatic_index_updates": true,
   "eager_indexing_groups": [
                              [{"name": "public", "variables" : []}]
