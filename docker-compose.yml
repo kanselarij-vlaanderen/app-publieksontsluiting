@@ -9,7 +9,7 @@ x-logging:
 
 services:
   frontend:
-    image: kanselarij/frontend-valvas:0.5.3
+    image: kanselarij/frontend-valvas:0.5.4
     links:
       - identifier:backend
   identifier:
