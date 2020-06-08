@@ -106,10 +106,20 @@ services:
     restart: always
     logging: *default-logging
   file:
-    image: semtech/mu-file-service:3.1.0
-    links:
-      - database:database
-    volumes:
-      - ./data/files:/share
-    restart: always
-    logging: *default-logging
+      image: semtech/mu-file-service:3.1.0
+      links:
+        - database:database
+      volumes:
+        - ./data/files:/share
+      restart: always
+      logging: *default-logging
+    publication-consumer:
+      image: kanselarij/valvas-publication-consumer:1.0.0
+      links:
+        - database:database
+      volumes:
+        - ./data/files:/share
+      restart: always
+      logging: *default-logging
+      ports:
+        - "1234:80"
