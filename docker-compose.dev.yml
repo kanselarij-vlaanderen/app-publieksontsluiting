@@ -8,19 +8,25 @@ x-logging:
     max-file: "3"
 
 services:
-  identifier:
+  frontend:
     restart: "no"
+  identifier:
     ports:
       - "80:80"
+    restart: "no"
   dispatcher:
+    restart: "no"
+  database:
+    restart: "no"
+  delta-notifier:
     restart: "no"
   virtuoso:
     ports:
       - "8890:8890"
     restart: "no"
-  database:
-    restart: "no"
   migrations:
+    restart: "no"
+  cache:
     restart: "no"
   resource:
     restart: "no"
@@ -28,9 +34,9 @@ services:
     environment:
       LOG_LEVEL: "debug"
     restart: "no"
-    ports:
-      - "8888:80"
   elasticsearch:
+    restart: "no"
+  file:
     restart: "no"
   kibana:
     image: docker.elastic.co/kibana/kibana:7.2.0
@@ -42,3 +48,4 @@ services:
     environment:
       ELASTICSEARCH_URL: "http://elasticsearch:9200"
     restart: "no"
+
