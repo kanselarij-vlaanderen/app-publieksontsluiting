@@ -12,6 +12,10 @@ services:
     image: kanselarij/frontend-valvas:0.5.5
     links:
       - identifier:backend
+    labels:
+      - "logging=true"
+    restart: always
+    logging: *default-logging
   identifier:
     image: semtech/mu-identifier:1.9.0
     links:
@@ -37,6 +41,14 @@ services:
       MU_SPARQL_ENDPOINT: "http://virtuoso:8890/sparql"
     volumes:
       - ./config/authorization:/config
+    labels:
+      - "logging=true"
+    restart: always
+    logging: *default-logging
+  delta-notifier:
+    image: semtech/mu-delta-notifier:0.1.0
+    volumes:
+      - ./config/delta:/config
     labels:
       - "logging=true"
     restart: always
@@ -82,8 +94,6 @@ services:
     logging: *default-logging
   search:
     image: semtech/mu-search:0.6.1
-    environment:
-      MU_SPARQL_ENDPOINT: "http://virtuoso:8890/sparql"
     volumes:
       - ./config/search:/config
     labels:
@@ -107,7 +117,3 @@ services:
       - ./data/files:/share
     restart: always
     logging: *default-logging
-  delta-notifier:
-    image: semtech/mu-delta-notifier:0.1.0
-    volumes:
-      - ./config/delta:/config
