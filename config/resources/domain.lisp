@@ -7,6 +7,9 @@
   "when non-nil, all paginated listings will contain the number
    of responses in the result object's meta.")
 (defparameter *max-group-sorted-properties* nil)
+;;(defparameter sparql:*query-log-types* nil) ; disable query logs
+;;(defparameter *log-delta-clear-keys* t)
+(setf sparql:*experimental-no-application-graph-for-sudo-select-queries* t)
 
 (read-domain-file "mandaat-domain.lisp")
 (read-domain-file "publicatie-domain.lisp")

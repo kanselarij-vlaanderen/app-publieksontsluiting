@@ -36,7 +36,7 @@ services:
     restart: always
     logging: *default-logging
   database:
-    image: semtech/mu-authorization:0.6.0-beta.4
+    image: semtech/mu-authorization:0.6.0-beta.5
     environment:
       MU_SPARQL_ENDPOINT: "http://virtuoso:8890/sparql"
     volumes:
@@ -77,7 +77,7 @@ services:
     restart: always
     logging: *default-logging
   cache:
-    image: semtech/mu-cache:2.0.0
+    image: semtech/mu-cache:2.0.1
     links:
       - resource:backend
     labels:
@@ -86,6 +86,8 @@ services:
     logging: *default-logging
   resource:
     image: semtech/mu-cl-resources:1.19.0
+    environment:
+      CACHE_CLEAR_PATH: "http://cache/.mu/clear-keys"
     volumes:
       - ./config/resources:/config
     labels:
@@ -93,7 +95,7 @@ services:
     restart: always
     logging: *default-logging
   search:
-    image: semtech/mu-search:0.6.1
+    image: semtech/mu-search:0.6.3
     volumes:
       - ./config/search:/config
     labels:
@@ -117,3 +119,8 @@ services:
       - ./data/files:/share
     restart: always
     logging: *default-logging
+  publication-consumer:
+    image: kanselarij/valvas-publication-consumer:1.0.0
+    volumes:
+      - ./data/downloaded-publications:/tmp
+      - ./data/files:/share

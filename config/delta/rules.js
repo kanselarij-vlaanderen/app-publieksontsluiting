@@ -15,8 +15,7 @@ export default [
   },
   {
     match: {
-      // form of element is {subject,predicate,object}
-      // predicate: { type: "uri", value: "http://www.semanticdesktop.org/ontologies/2007/03/22/nmo#isPartOf" }
+      subject: {}
     },
     callback: {
       url: "http://resource/.mu/delta",
@@ -24,7 +23,7 @@ export default [
     },
     options: {
       resourceFormat: "v0.0.1",
-      gracePeriod: 1000,
+      gracePeriod: 250,
       ignoreFromSelf: true
     }
   }
