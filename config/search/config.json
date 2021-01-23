@@ -78,6 +78,11 @@
           "^http://mu.semte.ch/vocabularies/ext/publishedNieuwsbriefInfo",
           "http://mu.semte.ch/vocabularies/core/uuid"
         ],
+        "sessionType": [
+          "^http://mu.semte.ch/vocabularies/ext/publishedNieuwsbriefInfo",
+          "http://mu.semte.ch/vocabularies/ext/aard",
+          "http://www.w3.org/2004/02/skos/core#prefLabel"
+        ],
         "priority": [
           "http://mu.semte.ch/vocabularies/ext/prioriteit"
         ],
