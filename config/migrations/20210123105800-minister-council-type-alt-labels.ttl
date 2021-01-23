@@ -1,0 +1,12 @@
+@prefix mu: <http://mu.semte.ch/vocabularies/core/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ext: <http://mu.semte.ch/vocabularies/ext/> .
+@prefix kind: <http://kanselarij.vo.data.gift/id/concept/ministerraad-type-codes/> .
+
+kind:A5D6B7A8-2F9C-44B6-B3BE-98D80B426254 skos:altLabel "Ministerraad" .
+
+kind:406F2ECA-524D-47DC-B889-651893135456 skos:altLabel "Ministerraad via elektronische procedure" .
+
+kind:7D8E35BE-E5D1-494F-B5F9-51B07875B96F skos:altLabel "Bijzondere ministerraad" .
+
+kind:1d16cb70-0ae9-489e-bf97-c74897222e3c skos:altLabel "Ministerraad - Plan Vlaamse Veerkracht"
