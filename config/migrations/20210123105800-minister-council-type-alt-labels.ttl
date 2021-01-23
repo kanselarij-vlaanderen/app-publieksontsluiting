@@ -9,4 +9,5 @@ kind:406F2ECA-524D-47DC-B889-651893135456 skos:altLabel "Ministerraad via elektr
 
 kind:7D8E35BE-E5D1-494F-B5F9-51B07875B96F skos:altLabel "Bijzondere ministerraad" .
 
-kind:1d16cb70-0ae9-489e-bf97-c74897222e3c skos:altLabel "Ministerraad - Plan Vlaamse Veerkracht"
+kind:1d16cb70-0ae9-489e-bf97-c74897222e3c skos:altLabel "Ministerraad - Plan Vlaamse Veerkracht" .
+
