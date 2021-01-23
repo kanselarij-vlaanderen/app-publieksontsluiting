@@ -16,4 +16,5 @@ config/migrations/*
 !config/migrations/[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]-*
 *sensitive*
 
-/data/elasticsearch/*
+data/elasticsearch/*
+config/search/*.store
