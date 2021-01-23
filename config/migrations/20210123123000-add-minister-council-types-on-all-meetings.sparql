@@ -1,0 +1,13 @@
+PREFIX besluit: <http://data.vlaanderen.be/ns/besluit#>
+PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+     ?s ext:aard <http://kanselarij.vo.data.gift/id/concept/ministerraad-type-codes/A5D6B7A8-2F9C-44B6-B3BE-98D80B426254> .
+  }
+}
+WHERE {
+   ?s a besluit:Zitting .
+   FILTER NOT EXISTS { ?s ext:aard ?aard }
+}
