@@ -33,65 +33,63 @@
     {
       "type": "news-item",
       "on_path": "news-items",
-      "rdf_type": "http://data.vlaanderen.be/ns/besluitvorming#NieuwsbriefInfo",
+      "rdf_type": "http://mu.semte.ch/vocabularies/ext/Nieuwsbericht",
       "properties": {
         "title": "http://purl.org/dc/terms/title",
-        "htmlContent": "http://mu.semte.ch/vocabularies/ext/htmlInhoud",
+        "alternativeTitle": "http://purl.org/dc/terms/alternative",
+        "htmlContent": "http://www.semanticdesktop.org/ontologies/2007/01/19/nie#htmlContent",
+        "position": "http://schema.org/position",
         "mandateeNames": [
-          "^http://www.w3.org/ns/prov#generated",
-          "http://data.vlaanderen.be/ns/besluitvorming#heeftBevoegde",
+          "http://www.w3.org/ns/prov#qualifiedAssociation",
           "http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan",
           "http://xmlns.com/foaf/0.1/name"
         ],
         "mandateeFirstNames": [
-          "^http://www.w3.org/ns/prov#generated",
-          "http://data.vlaanderen.be/ns/besluitvorming#heeftBevoegde",
+          "http://www.w3.org/ns/prov#qualifiedAssociation",
           "http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan",
-          "http://xmlns.com/foaf/0.1/firstName"
+          "https://data.vlaanderen.be/ns/persoon#gebruikteVoornaam"
         ],
         "mandateeFamilyNames": [
-          "^http://www.w3.org/ns/prov#generated",
-          "http://data.vlaanderen.be/ns/besluitvorming#heeftBevoegde",
+          "http://www.w3.org/ns/prov#qualifiedAssociation",
           "http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan",
           "http://xmlns.com/foaf/0.1/familyName"
         ],
         "mandateeIds": [
-          "^http://www.w3.org/ns/prov#generated",
-          "http://data.vlaanderen.be/ns/besluitvorming#heeftBevoegde",
+          "http://www.w3.org/ns/prov#qualifiedAssociation",
           "http://mu.semte.ch/vocabularies/core/uuid"
         ],
         "mandateeTitles": [
-          "^http://www.w3.org/ns/prov#generated",
-          "http://data.vlaanderen.be/ns/besluitvorming#heeftBevoegde",
+          "http://www.w3.org/ns/prov#qualifiedAssociation",
           "http://purl.org/dc/terms/title"
         ],
         "mandateeActiveStatus": [
-          "^http://www.w3.org/ns/prov#generated",
-          "http://data.vlaanderen.be/ns/besluitvorming#heeftBevoegde",
-          "http://mu.semte.ch/vocabularies/ext/activeStatus"
+          "http://www.w3.org/ns/prov#qualifiedAssociation",
+          "http://data.vlaanderen.be/ns/mandaat#status"
         ],
-        "sessionDate": [
-          "^http://mu.semte.ch/vocabularies/ext/publishedNieuwsbriefInfo",
+        "meetingDate": [
+          "http://www.w3.org/ns/prov#wasDerivedFrom",
+          "^http://purl.org/dc/terms/hasPart",
+          "https://data.vlaanderen.be/ns/besluitvorming#isAgendaVoor",
           "http://data.vlaanderen.be/ns/besluit#geplandeStart"
         ],
-        "sessionId": [
-          "^http://mu.semte.ch/vocabularies/ext/publishedNieuwsbriefInfo",
+        "meetingId": [
+          "http://www.w3.org/ns/prov#wasDerivedFrom",
+          "^http://purl.org/dc/terms/hasPart",
+          "https://data.vlaanderen.be/ns/besluitvorming#isAgendaVoor",
           "http://mu.semte.ch/vocabularies/core/uuid"
-        ],
-        "sessionPriority": [
-          "^http://mu.semte.ch/vocabularies/ext/publishedNieuwsbriefInfo",
-          "http://mu.semte.ch/vocabularies/ext/aard",
-          "http://schema.org/position"
-        ],
-        "priority": [
-          "http://mu.semte.ch/vocabularies/ext/prioriteit"
         ],
         "themeId": [
-          "http://mu.semte.ch/vocabularies/ext/themesOfSubcase",
+          "http://purl.org/dc/terms/subject",
           "http://mu.semte.ch/vocabularies/core/uuid"
         ],
-        "category": [
-          "http://mu.semte.ch/vocabularies/ext/newsItemCategory"
+        "agendaitem-position": [
+          "http://www.w3.org/ns/prov#wasDerivedFrom",
+          "http://schema.org/position"
+        ],
+        "agendaitem-type": [
+          "http://www.w3.org/ns/prov#wasDerivedFrom",
+          "http://data.vlaanderen.be/ns/besluit#Agendapunt.type",
+          "http://www.w3.org/2004/02/skos/core#prefLabel"
         ]
       },
       "mappings": {
@@ -122,13 +120,13 @@
           "mandateeActiveStatus": {
             "type": "keyword"
           },
-          "sessionDate": {
+          "meetingDate": {
             "type": "date"
           },
-          "sessionPriority": {
+          "agendaitem-position": {
             "type": "integer"
           },
-          "priority": {
+          "position": {
             "type": "integer"
           },
           "themeId": {
