@@ -155,17 +155,23 @@ defmodule Acl.UserGroups.Config do
           graph: "http://mu.semte.ch/graphs/public",
           constraint: %ResourceConstraint{
             resource_types: [
-              "http://mu.semte.ch/vocabularies/ext/ThemaCode",
-              "http://mu.semte.ch/vocabularies/ext/Thema",
-              "http://data.vlaanderen.be/ns/besluitvorming#NieuwsbriefInfo",
               "http://data.vlaanderen.be/ns/mandaat#Mandataris",
               "http://www.w3.org/ns/person#Person",
-              "http://data.vlaanderen.be/ns/besluitvorming#Agenda",
+              "http://www.w3.org/2004/02/skos/core#Concept",
+              "http://www.w3.org/2004/02/skos/core#ConceptScheme",
               "http://data.vlaanderen.be/ns/besluit#Agendapunt",
-              "http://dbpedia.org/ontology/Case",
-              "http://dbpedia.org/ontology/UnitOfWork",
-              "http://data.vlaanderen.be/ns/besluit#Zitting",
-              "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject"
+              "https://data.vlaanderen.be/ns/dossier#Stuk",
+              "https://data.vlaanderen.be/ns/besluitvorming#Agenda",
+              "http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit",
+              "http://www.w3.org/ns/prov#Activity",
+              "http://www.w3.org/ns/prov#Generation",
+              "http://data.vlaanderen.be/ns/besluit#Bestuursorgaan",
+              "http://data.vlaanderen.be/ns/mandaat#RechtstreekseVerkiezing",
+              "http://www.w3.org/ns/org#Role",
+              "http://www.w3.org/ns/prov#Invalidation",
+              "http://data.vlaanderen.be/ns/mandaat#Mandaat",
+              "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject",
+              "http://mu.semte.ch/vocabularies/ext/Nieuwsbericht"
             ]
           } } ]
       },
