@@ -82,11 +82,11 @@
           "http://purl.org/dc/terms/subject",
           "http://mu.semte.ch/vocabularies/core/uuid"
         ],
-        "agendaitem-position": [
+        "meetingPosition": [
           "http://www.w3.org/ns/prov#wasDerivedFrom",
           "http://schema.org/position"
         ],
-        "agendaitem-type": [
+        "agendaitemType": [
           "http://www.w3.org/ns/prov#wasDerivedFrom",
           "http://data.vlaanderen.be/ns/besluit#Agendapunt.type",
           "http://www.w3.org/2004/02/skos/core#prefLabel"
