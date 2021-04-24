@@ -57,7 +57,7 @@
           "type": "string",
           "predicate": "foaf:familyName"
         },
-        "fist-name": {
+        "first-name": {
           "type": "string",
           "predicate": "persoon:gebruikteVoornaam"
         },

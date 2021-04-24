@@ -33,14 +33,14 @@
         }
       },
       "relationships": {
-        "files": {
+        "file": {
           "predicate": "prov:value",
           "target": "file",
           "cardinality": "one"
         },
-        "news-item-info": {
+        "news-items": {
           "predicate": "besluitvorming:heeftBijlage",
-          "target": "nieuws-items",
+          "target": "nieuws-item-info",
           "cardinality": "many",
           "inverse": true
         }
