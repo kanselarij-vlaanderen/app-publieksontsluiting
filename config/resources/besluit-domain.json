@@ -16,6 +16,7 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "schema": "http://schema.org/",
     "skos": "http://www.w3.org/2004/02/skos/core#",
+    "themis": "http://themis.vlaanderen.be/vocabularies/besluitvorming/",
     "ext": "http://mu.semte.ch/vocabularies/ext/"
   },
   "resources": {
@@ -100,6 +101,10 @@
         "identifier": {
           "type": "string",
           "predicate": "dct:identifier"
+        },
+        "planned-publication-date": {
+          "type": "datetime",
+          "predicate": "themis:geplandePublicatieDatumDocumenten"
         }
       },
       "relationships": {
