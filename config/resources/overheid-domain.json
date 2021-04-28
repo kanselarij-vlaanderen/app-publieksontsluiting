@@ -1,0 +1,190 @@
+{
+  "version": "0.1",
+  "prefixes": {
+    "besluit": "http://data.vlaanderen.be/ns/besluit#",
+    "besluitvorming": "https://data.vlaanderen.be/ns/besluitvorming#",
+    "dbpedia": "http://dbpedia.org/ontology/",
+    "dct": "http://purl.org/dc/terms/",
+    "dossier": "https://data.vlaanderen.be/ns/dossier#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "generiek": "https://data.vlaanderen.be/ns/generiek#",
+    "mandaat": "http://data.vlaanderen.be/ns/mandaat#",
+    "nfo": "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#",
+    "nie": "http://www.semanticdesktop.org/ontologies/2007/01/19/nie#",
+    "org": "http://www.w3.org/ns/org#",
+    "person": "http://www.w3.org/ns/person#",
+    "persoon": "https://data.vlaanderen.be/ns/persoon#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "themis": "http://themis.vlaanderen.be/vocabularies/besluitvorming/",
+    "ext": "http://mu.semte.ch/vocabularies/ext/"
+  },
+  "resources": {
+    "government-functions": {
+      "name": "government-function",
+      "class": "org:Role",
+      "attributes": {
+        "label": {
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        }
+      },
+      "new-resource-base": "http://themis.vlaanderen.be/id/bestuursfunctie/"
+    },
+    "government-bodies": {
+      "name": "government-body",
+      "class": "besluit:Bestuursorgaan",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        }
+      },
+      "relationships": {
+        "is-timespecialization-of": {
+          "predicate": "generiek:isTijdspecialisatieVan",
+          "target": "government-body",
+          "cardinality": "one"
+        },
+        "government-bodies": {
+          "predicate": "generiek:isTijdspecialisatieVan",
+          "target": "government-body",
+          "cardinality": "many",
+          "inverse": true
+        },
+        "start-date": {
+          "predicate": "prov:qualifiedGeneration",
+          "target": "version",
+          "cardinality": "one"
+        },
+        "end-date": {
+          "predicate": "prov:qualifiedInvalidation",
+          "target": "version",
+          "cardinality": "one"
+        },
+        "mandates": {
+          "predicate": "org:hasPost",
+          "target": "mandate",
+          "cardinality": "many"
+        },
+        "mandatees": {
+          "predicate": "prov:hadMember",
+          "target": "mandatee",
+          "cardinality": "many"
+        },
+        "classification": {
+          "predicate": "org:classification",
+          "target": "concept",
+          "cardinality": "one"
+        },
+        "government-unit": {
+          "predicate": "besluit:bestuurt",
+          "target": "government-unit",
+          "cardinality": "one"
+        }
+      },
+      "new-resource-base": "http://themis.vlaanderen.be/id/bestuursorgaan/"
+    },
+    "government-units": {
+      "name": "government-unit",
+      "class": "besluit:Bestuurseenheid",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        }
+      },
+      "relationships": {
+        "government-bodies": {
+          "predicate": "besluit:bestuurt",
+          "target": "government-body",
+          "cardinality": "many",
+          "inverse": true
+        },
+        "classification": {
+          "predicate": "org:classification",
+          "target": "concept",
+          "cardinality": "one"
+        }
+      },
+      "new-resource-base": "http://themis.vlaanderen.be/id/bestuurseenheid/"
+    },
+    "concepts": {
+      "name": "concept",
+      "class": "skos:Concept",
+      "attributes": {
+        "label": {
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        },
+        "definition": {
+          "type": "string",
+          "predicate": "skos:definition"
+        }
+      },
+      "relationships": {
+        "in-scheme": {
+          "target": "concept-scheme",
+          "predicate": "skos:inScheme",
+          "cardinality": "many"
+        }
+      },
+      "features": [
+        "include-uri"
+      ],
+      "new-resource-base": "http://themis-vlaanderen.be/id/concept/"
+    },
+    "concept-schemes": {
+      "name": "concept-scheme",
+      "class": "skos:ConceptScheme",
+      "attributes": {
+        "label": {
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        }
+      },
+      "relationships": {
+        "concepts": {
+          "target": "concept",
+          "predicate": "skos:inScheme",
+          "cardinality": "many",
+          "inverse": true
+        }
+      },
+      "features": [
+        "include-uri"
+      ],
+      "new-resource-base": "http://themis-vlaanderen.be/id/concept-scheme/"
+    },
+    "versions": {
+      "name": "version",
+      "class": "prov:Generation",
+      "attributes": {
+        "time": {
+          "type": "datetime",
+          "predicate": "prov:atTime"
+        }
+      },
+      "relationships": {
+        "government-body-start": {
+          "target": "government-body",
+          "predicate": "prov:qualifiedGeneration",
+          "cardinality": "one",
+          "inverse": true
+        },
+        "government-body-end": {
+          "target": "government-body",
+          "predicate": "prov:qualifiedInvalidation",
+          "cardinality": "one",
+          "inverse": true
+        }
+      },
+      "features": [
+        "include-uri"
+      ],
+      "new-resource-base": "http://themis-vlaanderen.be/id/version"
+    }
+  }
+}

@@ -24,8 +24,23 @@ defmodule Dispatcher do
   get "/mandatees/*path" do
     Proxy.forward conn, path, "http://cache/mandatees/"
   end
+  get "/mandates/*path" do
+    Proxy.forward conn, path, "http://cache/mandates/"
+  end
   get "/people/*path" do
     Proxy.forward conn, path, "http://cache/people/"
+  end
+  get "/government-functions/*path" do
+    Proxy.forward conn, path, "http://cache/government-functions/"
+  end
+  get "/government-bodies/*path" do
+    Proxy.forward conn, path, "http://cache/government-bodies/"
+  end
+  get "/government-units/*path" do
+    Proxy.forward conn, path, "http://cache/government-units/"
+  end
+  get "/versions/*path" do
+    Proxy.forward conn, path, "http://cache/versions/"
   end
   get "/calendar-items/*path" do
     Proxy.forward conn, path, "http://cache/calendar-items/"

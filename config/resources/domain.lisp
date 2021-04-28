@@ -15,3 +15,4 @@
 (read-domain-file "mandaat-domain.json")
 (read-domain-file "bijlage-domain.json")
 (read-domain-file "nieuwsbericht-domain.json")
+(read-domain-file "overheid-domain.json")

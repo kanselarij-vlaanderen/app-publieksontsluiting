@@ -7,9 +7,11 @@
     "dct": "http://purl.org/dc/terms/",
     "dossier": "https://data.vlaanderen.be/ns/dossier#",
     "foaf": "http://xmlns.com/foaf/0.1/",
+    "generiek": "https://data.vlaanderen.be/ns/generiek#",
     "mandaat": "http://data.vlaanderen.be/ns/mandaat#",
     "nfo": "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#",
     "nie": "http://www.semanticdesktop.org/ontologies/2007/01/19/nie#",
+    "org": "http://www.w3.org/ns/org#",
     "person": "http://www.w3.org/ns/person#",
     "persoon": "https://data.vlaanderen.be/ns/persoon#",
     "prov": "http://www.w3.org/ns/prov#",
@@ -46,6 +48,17 @@
           "predicate": "mandaat:isBestuurlijkeAliasVan",
           "target": "person",
           "cardinality": "one"
+        },
+        "mandate": {
+          "predicate": "org:holds",
+          "target": "mandate",
+          "cardinality": "one"
+        },
+        "government-body": {
+          "predicate": "prov:hadMember",
+          "target": "government-body",
+          "cardinality": "one",
+          "inverse": true
         }
       },
       "new-resource-base": "http://themis.vlaanderen.be/id/mandataris/"
@@ -75,7 +88,31 @@
           "inverse": true
         }
       },
-      "new-resource-base": "http://themis.vlaanderen.be/id/mandataris/"
+      "new-resource-base": "http://themis.vlaanderen.be/id/person/"
+    },
+    "mandates": {
+      "name": "mandate",
+      "class": "mandaat:Mandaat",
+      "relationships": {
+        "government-function": {
+          "predicate": "org:role",
+          "target": "government-function",
+          "cardinality": "one"
+        },
+        "government-body": {
+          "predicate": "org:hasPost",
+          "target": "government-body",
+          "cardinality": "one",
+          "inverse": true
+        },
+        "mandatees": {
+          "predicate": "org:holds",
+          "target": "mandatee",
+          "cardinality": "many",
+          "inverse": true
+        }
+      },
+      "new-resource-base": "http://themis.vlaanderen.be/id/mandaat/"
     }
   }
 }
