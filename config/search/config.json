@@ -62,10 +62,6 @@
           "http://www.w3.org/ns/prov#qualifiedAssociation",
           "http://purl.org/dc/terms/title"
         ],
-        "mandateeActiveStatus": [
-          "http://www.w3.org/ns/prov#qualifiedAssociation",
-          "http://data.vlaanderen.be/ns/mandaat#status"
-        ],
         "meetingDate": [
           "http://www.w3.org/ns/prov#wasDerivedFrom",
           "^http://purl.org/dc/terms/hasPart",
