@@ -41,6 +41,10 @@
         "title": {
           "type": "string",
           "predicate": "dct:title"
+        },
+        "alternative-title": {
+          "type": "string",
+          "predicate": "dct:alternative"
         }
       },
       "relationships": {
