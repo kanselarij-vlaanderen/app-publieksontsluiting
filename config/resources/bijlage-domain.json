@@ -65,6 +65,10 @@
         "extension": {
           "type": "string",
           "predicate": "dbpedia:fileExtension"
+        },
+        "format": {
+          "type": "string",
+          "predicate": "dct:format"
         }
       },
       "relationships": {
