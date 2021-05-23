@@ -43,7 +43,7 @@
         },
         "news-items": {
           "predicate": "besluitvorming:heeftBijlage",
-          "target": "nieuws-item-info",
+          "target": "news-item-info",
           "cardinality": "many",
           "inverse": true
         }
