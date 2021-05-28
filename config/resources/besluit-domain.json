@@ -116,7 +116,7 @@
           "cardinality": "one"
         }
       },
-      "new-resource-base": "http://themis-vlaanderen.be/id/meeting/"
+      "new-resource-base": "http://themis-vlaanderen.be/id/vergaderactiviteit/"
     }
   }
 }

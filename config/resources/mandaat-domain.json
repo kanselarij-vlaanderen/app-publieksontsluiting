@@ -92,7 +92,7 @@
           "inverse": true
         }
       },
-      "new-resource-base": "http://themis.vlaanderen.be/id/person/"
+      "new-resource-base": "http://themis.vlaanderen.be/id/persoon/"
     },
     "mandates": {
       "name": "mandate",

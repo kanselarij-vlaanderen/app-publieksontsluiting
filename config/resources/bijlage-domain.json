@@ -43,12 +43,12 @@
         },
         "news-items": {
           "predicate": "besluitvorming:heeftBijlage",
-          "target": "nieuws-item-info",
+          "target": "news-item-info",
           "cardinality": "many",
           "inverse": true
         }
       },
-      "new-resource-base": "http://themis.vlaanderen.be/id/resource/"
+      "new-resource-base": "http://themis.vlaanderen.be/id/stuk/"
     },
     "files": {
       "name": "file",
@@ -79,7 +79,7 @@
           "inverse": true
         }
       },
-      "new-resource-base": "http://themis.vlaanderen.be/id/resource/"
+      "new-resource-base": "http://themis.vlaanderen.be/id/bestand/"
     }
   }
 }
