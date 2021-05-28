@@ -95,12 +95,30 @@
             "analyzer": "dutchanalyzer",
             "search_analyzer": "dutchanalyzer"
           },
+          "alternativeTitle": {
+            "type": "text",
+            "analyzer": "dutchanalyzer",
+            "search_analyzer": "dutchanalyzer"
+          },
           "htmlContent": {
             "type": "text",
             "analyzer": "dutchanalyzer",
             "search_analyzer": "dutchanalyzer"
           },
+          "position": {
+            "type": "integer"
+          },
           "mandateeNames": {
+            "type": "text",
+            "analyzer": "dutchanalyzer",
+            "search_analyzer": "dutchanalyzer"
+          },
+          "mandateeFirstNames": {
+            "type": "text",
+            "analyzer": "dutchanalyzer",
+            "search_analyzer": "dutchanalyzer"
+          },
+          "mandateeFamilyNames": {
             "type": "text",
             "analyzer": "dutchanalyzer",
             "search_analyzer": "dutchanalyzer"
@@ -113,20 +131,22 @@
             "analyzer": "dutchanalyzer",
             "search_analyzer": "dutchanalyzer"
           },
-          "mandateeActiveStatus": {
-            "type": "keyword"
-          },
           "meetingDate": {
             "type": "date"
           },
-          "agendaitem-position": {
-            "type": "integer"
-          },
-          "position": {
-            "type": "integer"
+          "meetingId": {
+            "type": "keyword"
           },
           "themeId": {
             "type": "keyword"
+          },
+          "meetingPosition": {
+            "type": "integer"
+          },
+          "agendaitemType": {
+            "type": "text",
+            "analyzer": "dutchanalyzer",
+            "search_analyzer": "dutchanalyzer"
           }
         }
       }
