@@ -62,9 +62,9 @@
           "target": "attachment",
           "cardinality": "many"
         },
-        "calendar-item": {
+        "agenda-item": {
           "predicate": "prov:wasDerivedFrom",
-          "target": "calendar-item",
+          "target": "agenda-item",
           "cardinality": "one"
         }
       },

@@ -22,8 +22,8 @@
     "ext": "http://mu.semte.ch/vocabularies/ext/"
   },
   "resources": {
-    "calendar-items": {
-      "name": "calendar-item",
+    "agenda-items": {
+      "name": "agenda-item",
       "class": "besluit:Agendapunt",
       "attributes": {
         "title": {
@@ -53,17 +53,17 @@
           "target": "concept",
           "cardinality": "one"
         },
-        "calendar": {
+        "agenda": {
           "predicate": "dct:hasPart",
-          "target": "calendar",
+          "target": "agenda",
           "cardinality": "one",
           "inverse": true
         }
       },
       "new-resource-base": "http://themis.vlaanderen.be/id/agendapunt/"
     },
-    "calendars": {
-      "name": "calendar",
+    "agendas": {
+      "name": "agenda",
       "class": "besluitvorming:Agenda",
       "attributes": {
         "title": {

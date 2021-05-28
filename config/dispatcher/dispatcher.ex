@@ -42,11 +42,11 @@ defmodule Dispatcher do
   get "/versions/*path" do
     Proxy.forward conn, path, "http://cache/versions/"
   end
-  get "/calendar-items/*path" do
-    Proxy.forward conn, path, "http://cache/calendar-items/"
+  get "/agenda-items/*path" do
+    Proxy.forward conn, path, "http://cache/agenda-items/"
   end
-  get "/calendars/*path" do
-    Proxy.forward conn, path, "http://cache/calendars/"
+  get "/agendas/*path" do
+    Proxy.forward conn, path, "http://cache/agendas/"
   end
   get "/meetings/*path" do
     Proxy.forward conn, path, "http://cache/meetings/"
