@@ -78,10 +78,6 @@
           "http://purl.org/dc/terms/subject",
           "http://mu.semte.ch/vocabularies/core/uuid"
         ],
-        "meetingPosition": [
-          "http://www.w3.org/ns/prov#wasDerivedFrom",
-          "http://schema.org/position"
-        ],
         "agendaitemType": [
           "http://www.w3.org/ns/prov#wasDerivedFrom",
           "http://data.vlaanderen.be/ns/besluit#Agendapunt.type",
@@ -139,9 +135,6 @@
           },
           "themeId": {
             "type": "keyword"
-          },
-          "meetingPosition": {
-            "type": "integer"
           },
           "agendaitemType": {
             "type": "keyword"
