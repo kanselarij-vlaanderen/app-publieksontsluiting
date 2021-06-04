@@ -77,6 +77,11 @@
           "target": "file",
           "cardinality": "one",
           "inverse": true
+        },
+        "attachment": {
+          "predicate": "prov:value",
+          "target": "attachement",
+          "cardinality": "one"
         }
       },
       "new-resource-base": "http://themis.vlaanderen.be/id/bestand/"
