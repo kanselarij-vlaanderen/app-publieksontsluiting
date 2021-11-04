@@ -44,7 +44,8 @@
         },
         "valvas-title": {
           "type": "string",
-          "predicate": "ext:valvasTitel"
+          "predicate": "ext:valvasTitel",
+          "_comment": "As opposed to the dct:title, this property includes the name of the mandatee"
         }
       },
       "relationships": {
