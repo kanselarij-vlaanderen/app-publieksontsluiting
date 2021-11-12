@@ -120,7 +120,7 @@ services:
     restart: always
     logging: *default-logging
   publication-consumer:
-    image: kanselarij/valvas-dataset-consumer:1.0.0
+    image: kanselarij/valvas-dataset-consumer:1.0.1
     volumes:
       - ./data/files:/share
     restart: always
