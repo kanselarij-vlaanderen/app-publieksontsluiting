@@ -18,3 +18,6 @@ config/migrations/*
 
 data/elasticsearch/*
 config/search/*.store
+
+# Environment
+.env

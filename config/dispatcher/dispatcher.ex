@@ -21,29 +21,47 @@ defmodule Dispatcher do
   # match "/themes/*path" do
   #   Proxy.forward conn, path, "http://resource/themes/"
   # end
-  get "/notifications/*path" do
-    Proxy.forward conn, path, "http://cache/notifications/"
-  end
   get "/mandatees/*path" do
     Proxy.forward conn, path, "http://cache/mandatees/"
+  end
+  get "/mandates/*path" do
+    Proxy.forward conn, path, "http://cache/mandates/"
   end
   get "/people/*path" do
     Proxy.forward conn, path, "http://cache/people/"
   end
-  get "/themes/*path" do
-    Proxy.forward conn, path, "http://cache/themes/"
+  get "/government-functions/*path" do
+    Proxy.forward conn, path, "http://cache/government-functions/"
+  end
+  get "/government-bodies/*path" do
+    Proxy.forward conn, path, "http://cache/government-bodies/"
+  end
+  get "/government-units/*path" do
+    Proxy.forward conn, path, "http://cache/government-units/"
+  end
+  get "/versions/*path" do
+    Proxy.forward conn, path, "http://cache/versions/"
+  end
+  get "/agenda-items/*path" do
+    Proxy.forward conn, path, "http://cache/agenda-items/"
+  end
+  get "/agendas/*path" do
+    Proxy.forward conn, path, "http://cache/agendas/"
   end
   get "/meetings/*path" do
     Proxy.forward conn, path, "http://cache/meetings/"
   end
-  get "/meeting-types/*path" do
-    Proxy.forward conn, path, "http://cache/meeting-types/"
+  get "/concepts/*path" do
+    Proxy.forward conn, path, "http://cache/concepts/"
   end
-  get "/newsletter-infos/*path" do
-    Proxy.forward conn, path, "http://cache/newsletter-infos/"
+  get "/concept-schemes/*path" do
+    Proxy.forward conn, path, "http://cache/concept-schemes/"
   end
-  get "/document-versions/*path" do
-    Proxy.forward conn, path, "http://cache/document-versions/"
+  get "/news-item-infos/*path" do
+    Proxy.forward conn, path, "http://cache/news-item-infos/"
+  end
+  get "/attachments/*path" do
+    Proxy.forward conn, path, "http://cache/attachments/"
   end
   get "/files/*path" do
     Proxy.forward conn, path, "http://file/files/"
