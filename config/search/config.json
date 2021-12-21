@@ -74,6 +74,13 @@
           "https://data.vlaanderen.be/ns/besluitvorming#isAgendaVoor",
           "http://mu.semte.ch/vocabularies/core/uuid"
         ],
+        "meetingTypePosition": [
+          "http://www.w3.org/ns/prov#wasDerivedFrom",
+          "^http://purl.org/dc/terms/hasPart",
+          "https://data.vlaanderen.be/ns/besluitvorming#isAgendaVoor",
+          "http://purl.org/dc/terms/type",
+          "http://schema.org/position"
+        ],
         "themeId": [
           "http://purl.org/dc/terms/subject",
           "http://mu.semte.ch/vocabularies/core/uuid"
@@ -132,6 +139,9 @@
           },
           "meetingId": {
             "type": "keyword"
+          },
+          "meetingTypePosition": {
+            "type": "integer"
           },
           "themeId": {
             "type": "keyword"
