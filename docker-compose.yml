@@ -122,6 +122,9 @@ services:
     logging: *default-logging
   publication-consumer:
     image: kanselarij/valvas-dataset-consumer:1.1.0
+    environment:
+      LOG_SPARQL_ALL: "false"
+      DEBUG_AUTH_HEADERS: "false"
     volumes:
       - ./data/files:/share
     restart: always

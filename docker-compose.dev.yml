@@ -39,6 +39,9 @@ services:
   file:
     restart: "no"
   publication-consumer:
+    environment:
+      LOG_SPARQL_ALL: "true"
+      DEBUG_AUTH_HEADERS: "true"
     restart: "no"
   kibana:
     image: docker.elastic.co/kibana/kibana:7.2.0
