@@ -16,7 +16,7 @@ The stack is built starting from [mu-project](https://github.com/mu-semtech/mu-p
 
 Updating this stack to add the latest [Themis](https://themis.vlaanderen.be) data is currently a manual process.
 - remove old Themis data (RDF types of the different entities contained within Themis can be found [here](https://github.com/kanselarij-vlaanderen/app-themis/blob/c674a86e24bc6647e61c2d760a8cff38a8059ca0/scripts/get_minister_dataset.sparql))
-- add the new distribution (ttl-file) of the [Themis "Samenstelling Vlaamse Regering"-dataset](https://themis.vlaanderen.be/id/dataset/96be5ff2-3571-475f-96ac-fdbf8d364a94) by means of a migration.
+- add the new distribution (ttl-file) of the [Themis "Samenstelling Vlaamse Regering"-dataset](https://themis.vlaanderen.be/id/concept/dataset-type/43c644d3-2171-4892-8dd7-3fd5eec15d09) by means of a migration.
 - Make sure that Valvas-specific extensions of Themis data are still working (see below)
 
 #### Valvas-specific extensions of Themis data.
