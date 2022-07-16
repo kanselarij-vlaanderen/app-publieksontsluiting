@@ -121,7 +121,7 @@ services:
     restart: always
     logging: *default-logging
   publication-consumer:
-    image: kanselarij/valvas-dataset-consumer:1.1.1
+    image: kanselarij/valvas-publication-consumer:1.1.1
     environment:
       LOG_SPARQL_ALL: "false"
       DEBUG_AUTH_HEADERS: "false"
