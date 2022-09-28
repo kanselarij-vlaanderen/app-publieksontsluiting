@@ -39,9 +39,6 @@ defmodule Dispatcher do
   get "/government-units/*path" do
     Proxy.forward conn, path, "http://cache/government-units/"
   end
-  get "/versions/*path" do
-    Proxy.forward conn, path, "http://cache/versions/"
-  end
   get "/agenda-items/*path" do
     Proxy.forward conn, path, "http://cache/agenda-items/"
   end

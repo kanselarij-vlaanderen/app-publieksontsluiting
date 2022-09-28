@@ -56,12 +56,12 @@
         },
         "start-date": {
           "predicate": "prov:qualifiedGeneration",
-          "target": "version",
+          "target": "generation",
           "cardinality": "one"
         },
         "end-date": {
           "predicate": "prov:qualifiedInvalidation",
-          "target": "version",
+          "target": "invalidation",
           "cardinality": "one"
         },
         "mandates": {
@@ -158,8 +158,8 @@
       ],
       "new-resource-base": "http://themis-vlaanderen.be/id/concept-scheme/"
     },
-    "versions": {
-      "name": "version",
+    "generations": {
+      "name": "generation",
       "class": "prov:Generation",
       "attributes": {
         "time": {
@@ -173,7 +173,23 @@
           "predicate": "prov:qualifiedGeneration",
           "cardinality": "one",
           "inverse": true
-        },
+        }
+      },
+      "features": [
+        "include-uri"
+      ],
+      "new-resource-base": "http://themis-vlaanderen.be/id/generatie/"
+    },
+    "invalidations": {
+      "name": "invalidation",
+      "class": "prov:Invalidation",
+      "attributes": {
+        "time": {
+          "type": "datetime",
+          "predicate": "prov:atTime"
+        }
+      },
+      "relationships": {
         "government-body-end": {
           "target": "government-body",
           "predicate": "prov:qualifiedInvalidation",
@@ -184,7 +200,7 @@
       "features": [
         "include-uri"
       ],
-      "new-resource-base": "http://themis-vlaanderen.be/id/versie/"
+      "new-resource-base": "http://themis-vlaanderen.be/id/invalidatie/"
     }
   }
 }
