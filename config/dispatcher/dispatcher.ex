@@ -21,6 +21,11 @@ defmodule Dispatcher do
   # match "/themes/*path" do
   #   Proxy.forward conn, path, "http://resource/themes/"
   # end
+
+  get "/health-checks/*_path" do
+    Proxy.forward conn, [], "http://resource/health-checks/"
+  end
+
   get "/mandatees/*path" do
     Proxy.forward conn, path, "http://cache/mandatees/"
   end
